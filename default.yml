@@ -641,6 +641,8 @@ Style/EvenOdd:
   Enabled: true
 Style/ExpandPathArguments:
   Enabled: true
+Style/FloatDivision:
+  Enabled: true
 Style/For:
   Enabled: true
 Style/GlobalVars:
