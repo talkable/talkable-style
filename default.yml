@@ -364,8 +364,6 @@ Performance/UnfreezeString:
 Performance/UriDefaultParser:
   Enabled: true
 
-Rails:
-  Enabled: true
 Rails/ActionFilter:
   Enabled: true
 Rails/ActiveRecordAliases:
@@ -522,6 +520,8 @@ RSpec/InvalidPredicateMatcher:
 RSpec/ItBehavesLike:
   Enabled: true
 RSpec/IteratedExpectation:
+  Enabled: true
+RSpec/LeakyConstantDeclaration:
   Enabled: true
 RSpec/LetBeforeExamples:
   Enabled: true
@@ -686,6 +686,8 @@ Style/MultilineIfThen:
 Style/MultilineMemoization:
   Enabled: true
 Style/MultilineMethodSignature:
+  Enabled: true
+Style/MultilineWhenThen:
   Enabled: true
 Style/MultipleComparison:
   Enabled: true
