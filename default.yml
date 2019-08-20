@@ -393,6 +393,8 @@ Rails/DelegateAllowBlank:
   Enabled: true
 Rails/DynamicFindBy:
   Enabled: true
+Rails/EnumHash:
+  Enabled: true
 Rails/EnumUniqueness:
   Enabled: true
 Rails/EnvironmentComparison:
