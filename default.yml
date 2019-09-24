@@ -615,8 +615,6 @@ Style/CommentAnnotation:
   Enabled: true
 Style/ConditionalAssignment:
   Enabled: true
-Style/ConstantVisibility:
-  Enabled: true
 Style/DateTime:
   Enabled: true
 Style/DefWithParentheses:
