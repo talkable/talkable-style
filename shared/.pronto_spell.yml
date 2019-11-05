@@ -1,0 +1,9 @@
+files_to_lint: '\.(cjsx|js|jsx|haml|md|rb)$'
+whitelist:
+  - '^(?:[0-9a-fA-F]{3}){2}$' # hex colors, e.g. ffffff
+  - ^sub        # subclass, subquery, subnet
+  - '[ai]ble$'  # joinable, deletable, invertible
+  - '[eo]rs?$'  # accessor, shortener, approvers
+  - ify$        # stringify, regexpify
+  - ize$        # tableize, parameterize
+  - ^XX         # front-end fancy component preloader text placeholder
