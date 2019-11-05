@@ -224,6 +224,14 @@ Lint/PercentSymbolArray:
   Enabled: true
 Lint/RandOne:
   Enabled: true
+Lint/RedundantCopDisableDirective:
+  Enabled: true
+Lint/RedundantCopEnableDirective:
+  Enabled: true
+Lint/RedundantRequireStatement:
+  Enabled: true
+Lint/RedundantSplatExpansion:
+  Enabled: true
 Lint/RedundantWithIndex:
   Enabled: true
 Lint/RedundantWithObject:
@@ -252,6 +260,8 @@ Lint/SafeNavigationWithEmpty:
   Enabled: true
 Lint/ScriptPermission:
   Enabled: true
+Lint/SendWithMixinArgument:
+  Enabled: true
 Lint/ShadowedException:
   Enabled: true
 Lint/StringConversionInInterpolation:
@@ -259,14 +269,6 @@ Lint/StringConversionInInterpolation:
 Lint/ToJSON:
   Enabled: true
 Lint/UnifiedInteger:
-  Enabled: true
-Lint/UnneededCopDisableDirective:
-  Enabled: true
-Lint/UnneededCopEnableDirective:
-  Enabled: true
-Lint/UnneededRequireStatement:
-  Enabled: true
-Lint/UnneededSplatExpansion:
   Enabled: true
 Lint/UnreachableCode:
   Enabled: true
@@ -481,6 +483,8 @@ RSpec/BeEql:
   Enabled: true
 RSpec/BeforeAfterAll:
   Enabled: true
+RSpec/ContextMethod:
+  Enabled: true
 RSpec/DescribeClass:
   Enabled: true
   Exclude:
@@ -496,6 +500,8 @@ RSpec/EmptyExampleGroup:
   Enabled: true
   CustomIncludeMethods:
   - it_has_behavior
+RSpec/EmptyLineAfterExample:
+  Enabled: true
 RSpec/EmptyLineAfterExampleGroup:
   Enabled: true
 RSpec/ExampleWithoutDescription:
@@ -733,17 +739,27 @@ Style/RaiseArgs:
   Enabled: true
 Style/RedundantBegin:
   Enabled: true
+Style/RedundantCapitalW:
+  Enabled: true
+Style/RedundantCondition:
+  Enabled: true
 Style/RedundantConditional:
   Enabled: true
 Style/RedundantException:
   Enabled: true
 Style/RedundantFreeze:
   Enabled: true
+Style/RedundantInterpolation:
+  Enabled: true
 Style/RedundantParentheses:
+  Enabled: true
+Style/RedundantPercentQ:
   Enabled: true
 Style/RedundantReturn:
   Enabled: true
 Style/RedundantSelf:
+  Enabled: true
+Style/RedundantSort:
   Enabled: true
 Style/RedundantSortBy:
   Enabled: true
@@ -782,16 +798,6 @@ Style/TrailingBodyOnModule:
 Style/TrivialAccessors:
   Enabled: true
 Style/UnlessElse:
-  Enabled: true
-Style/UnneededCapitalW:
-  Enabled: true
-Style/UnneededCondition:
-  Enabled: true
-Style/UnneededInterpolation:
-  Enabled: true
-Style/UnneededPercentQ:
-  Enabled: true
-Style/UnneededSort:
   Enabled: true
 Style/UnpackFirst:
   Enabled: true
