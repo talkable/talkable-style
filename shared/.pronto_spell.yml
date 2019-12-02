@@ -5,5 +5,5 @@ whitelist:
   - '[ai]ble$'  # joinable, deletable, invertible
   - '[eo]rs?$'  # accessor, shortener, approvers
   - ify$        # stringify, regexpify
-  - ize$        # tableize, parameterize
+  - ized?$      # tableize, parameterize, parameterized
   - ^XX         # front-end fancy component preloader text placeholder
