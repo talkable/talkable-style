@@ -683,7 +683,13 @@ Style/For:
   Enabled: true
 Style/GlobalVars:
   Enabled: true
+Style/HashEachMethods:
+  Enabled: true
 Style/HashSyntax:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
   Enabled: true
 Style/IdenticalConditionalBranches:
   Enabled: true
