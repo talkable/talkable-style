@@ -23,6 +23,8 @@ Capybara/CurrentPathExpectation:
   Enabled: true
 Capybara/FeatureMethods:
   Enabled: true
+Capybara/VisibilityMatcher:
+  Enabled: true
 
 FactoryBot/AttributeDefinedStatically:
   Enabled: true
@@ -83,6 +85,8 @@ Layout/HeredocIndentation:
   Enabled: true
 Layout/IndentationConsistency:
   Enabled: true
+Layout/IndentationStyle:
+  Enabled: true
 Layout/InitialIndentation:
   Enabled: true
 Layout/LeadingCommentSpace:
@@ -123,6 +127,8 @@ Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: true
 Layout/SpaceAroundKeyword:
   Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
 Layout/SpaceAroundOperators:
   Enabled: true
 Layout/SpaceBeforeComma:
@@ -142,8 +148,6 @@ Layout/SpaceInsideParens:
 Layout/SpaceInsidePercentLiteralDelimiters:
   Enabled: true
 Layout/SpaceInsideRangeLiteral:
-  Enabled: true
-Layout/Tab:
   Enabled: true
 Layout/TrailingEmptyLines:
   Enabled: true
@@ -183,8 +187,6 @@ Lint/EmptyExpression:
 Lint/EmptyInterpolation:
   Enabled: true
 Lint/EmptyWhen:
-  Enabled: true
-Lint/EndInMethod:
   Enabled: true
 Lint/EnsureReturn:
   Enabled: true
@@ -226,6 +228,8 @@ Lint/ParenthesesAsGroupedExpression:
 Lint/PercentStringArray:
   Enabled: true
 Lint/PercentSymbolArray:
+  Enabled: true
+Lint/RaiseException:
   Enabled: true
 Lint/RandOne:
   Enabled: true
@@ -270,6 +274,8 @@ Lint/ScriptPermission:
 Lint/SendWithMixinArgument:
   Enabled: true
 Lint/ShadowedException:
+  Enabled: true
+Lint/StructNewOverride:
   Enabled: true
 Lint/ToJSON:
   Enabled: true
@@ -426,6 +432,10 @@ Rails/HttpStatus:
   Enabled: true
 Rails/IgnoredSkipActionFilterOption:
   Enabled: true
+Rails/IndexBy:
+  Enabled: true
+Rails/IndexWith:
+  Enabled: true
 Rails/InverseOf:
   Enabled: true
 Rails/LexicallyScopedActionFilter:
@@ -478,6 +488,8 @@ Rails/TimeZone:
   Enabled: true
 Rails/UniqBeforePluck:
   Enabled: true
+Rails/UniqueValidationWithoutIndex:
+  Enabled: true
 Rails/UnknownEnv:
   Enabled: true
   Environments:
@@ -526,6 +538,8 @@ RSpec/EmptyExampleGroup:
   Enabled: true
   CustomIncludeMethods:
   - it_has_behavior
+RSpec/EmptyHook:
+  Enabled: true
 RSpec/EmptyLineAfterExample:
   Enabled: true
 RSpec/EmptyLineAfterExampleGroup:
@@ -676,6 +690,8 @@ Style/EvalWithLocation:
 Style/EvenOdd:
   Enabled: true
 Style/ExpandPathArguments:
+  Enabled: true
+Style/ExponentialNotation:
   Enabled: true
 Style/FloatDivision:
   Enabled: true
@@ -830,6 +846,8 @@ Style/SymbolProc:
 Style/TrailingBodyOnClass:
   Enabled: true
 Style/TrailingBodyOnModule:
+  Enabled: true
+Style/TrailingCommaInBlockArgs:
   Enabled: true
 Style/TrivialAccessors:
   Enabled: true
