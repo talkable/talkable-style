@@ -3,6 +3,7 @@ Brewfile
 CDATA
 CNAME
 Capfile
+DATEDIFF
 Dockerfile
 Gemfile
 HABTM
@@ -323,6 +324,7 @@ nowrap
 numericality
 nutrisystem
 oauth
+octokit
 oksana
 oleksandr
 olena
@@ -379,12 +381,15 @@ raquo
 rbenv
 rdquo
 readonly
+reaggregate
+reaggregation
 recaptcha
 redis
 refetch
 regex
 remarketing
 retval
+rewhere
 rhinoshield
 rocketmail
 rosul

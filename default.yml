@@ -168,6 +168,8 @@ Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
   Enabled: true
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 Lint/DuplicateCaseCondition:
@@ -330,6 +332,8 @@ Naming/RescuedExceptionsVariableName:
 Naming/VariableName:
   Enabled: true
 
+Performance/BindCall:
+  Enabled: true
 Performance/Caller:
   Enabled: true
 Performance/Casecmp:
@@ -339,6 +343,10 @@ Performance/CaseWhenSplat:
 Performance/CompareWithBlock:
   Enabled: true
 Performance/Count:
+  Enabled: true
+Performance/DeletePrefix:
+  Enabled: true
+Performance/DeleteSuffix:
   Enabled: true
 Performance/Detect:
   Enabled: true
@@ -826,6 +834,8 @@ Style/Sample:
 Style/SelfAssignment:
   Enabled: true
 Style/SignalException:
+  Enabled: true
+Style/SlicingWithRange:
   Enabled: true
 Style/SpecialGlobalVars:
   Enabled: true
