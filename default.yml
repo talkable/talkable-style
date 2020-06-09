@@ -215,6 +215,8 @@ Lint/Loop:
   Enabled: true
 Lint/MissingCopEnableDirective:
   Enabled: true
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
 Lint/MultipleComparison:
   Enabled: true
 Lint/NestedMethodDefinition:
@@ -814,6 +816,10 @@ Style/RedundantInterpolation:
 Style/RedundantParentheses:
   Enabled: true
 Style/RedundantPercentQ:
+  Enabled: true
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+Style/RedundantRegexpEscape:
   Enabled: true
 Style/RedundantReturn:
   Enabled: true
