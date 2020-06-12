@@ -613,6 +613,10 @@ RSpec/SharedExamples:
   Enabled: true
 RSpec/SingleArgumentMessageChain:
   Enabled: true
+RSpec/VariableDefinition:
+  Enabled: true
+RSpec/VariableName:
+  Enabled: true
 RSpec/VerifiedDoubles:
   Enabled: true
 RSpec/VoidExpect:
