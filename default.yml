@@ -334,6 +334,10 @@ Naming/RescuedExceptionsVariableName:
 Naming/VariableName:
   Enabled: true
 
+Performance/AncestorsInclude:
+  Enabled: true
+Performance/BigDecimalWithNumericArgument:
+  Enabled: true
 Performance/BindCall:
   Enabled: true
 Performance/Caller:
@@ -362,6 +366,8 @@ Performance/FlatMap:
   Enabled: true
 Performance/InefficientHashSearch:
   Enabled: true
+Performance/IoReadlines:
+  Enabled: true
 Performance/RangeInclude:
   Enabled: true
 Performance/RedundantBlockCall:
@@ -370,13 +376,25 @@ Performance/RedundantMatch:
   Enabled: true
 Performance/RedundantMerge:
   Enabled: true
+Performance/RedundantSortBlock:
+  Enabled: true
+Performance/RedundantStringChars:
+  Enabled: true
 Performance/RegexpMatch:
   Enabled: true
 Performance/ReverseEach:
   Enabled: true
+Performance/ReverseFirst:
+  Enabled: true
 Performance/Size:
   Enabled: true
+Performance/SortReverse:
+  Enabled: true
+Performance/Squeeze:
+  Enabled: true
 Performance/StartWith:
+  Enabled: true
+Performance/StringInclude:
   Enabled: true
 Performance/StringReplacement:
   Enabled: true
@@ -635,6 +653,8 @@ Security/Open:
 Security/YAMLLoad:
   Enabled: true
 
+Style/AccessorGrouping:
+  Enabled: true
 Style/Alias:
   Enabled: true
   EnforcedStyle: prefer_alias_method
@@ -649,6 +669,8 @@ Style/AutoResourceCleanup:
 Style/BarePercentLiterals:
   Enabled: true
 Style/BeginBlock:
+  Enabled: true
+Style/BisectedAttrAccessor:
   Enabled: true
 Style/BlockComments:
   Enabled: true
@@ -803,6 +825,8 @@ Style/Proc:
   Enabled: true
 Style/RaiseArgs:
   Enabled: true
+Style/RedundantAssignment:
+  Enabled: true
 Style/RedundantBegin:
   Enabled: true
 Style/RedundantCapitalW:
@@ -812,6 +836,8 @@ Style/RedundantCondition:
 Style/RedundantConditional:
   Enabled: true
 Style/RedundantException:
+  Enabled: true
+Style/RedundantFetchBlock:
   Enabled: true
 Style/RedundantFreeze:
   Enabled: true
