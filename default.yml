@@ -174,6 +174,8 @@ Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 Lint/DuplicateCaseCondition:
   Enabled: true
+Lint/DuplicateElsifCondition:
+  Enabled: true
 Lint/DuplicateHashKey:
   Enabled: true
 Lint/DuplicateMethods:
@@ -409,6 +411,8 @@ Rails/ActionFilter:
   Enabled: true
 Rails/ActiveRecordAliases:
   Enabled: true
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: true
 Rails/ActiveRecordOverride:
   Enabled: true
 Rails/ActiveSupportAliases:
@@ -448,6 +452,8 @@ Rails/Exit:
   Enabled: true
 Rails/FindBy:
   Enabled: true
+Rails/FindById:
+  Enabled: true
 Rails/FindEach:
   Enabled: true
 Rails/HasAndBelongsToMany:
@@ -470,7 +476,17 @@ Rails/LexicallyScopedActionFilter:
   Enabled: true
 Rails/LinkToBlank:
   Enabled: true
+Rails/MailerName:
+  Enabled: true
+Rails/MatchRoute:
+  Enabled: true
+Rails/NegateInclude:
+  Enabled: true
 Rails/NotNullColumn:
+  Enabled: true
+Rails/PluckId:
+  Enabled: true
+Rails/PluckInWhere:
   Enabled: true
 Rails/PluralizationGrammar:
   Enabled: true
@@ -493,6 +509,10 @@ Rails/ReflectionClassName:
   Enabled: true
 Rails/RelativeDateConstant:
   Enabled: true
+Rails/RenderInline:
+  Enabled: true
+Rails/RenderPlainText:
+  Enabled: true
 Rails/RequestReferer:
   Enabled: true
 Rails/ReversibleMigration:
@@ -506,6 +526,8 @@ Rails/SaveBang:
   Exclude:
   - spec/**/*
 Rails/ScopeArgs:
+  Enabled: true
+Rails/ShortI18n:
   Enabled: true
 Rails/SkipsModelValidations:
   Enabled: true
@@ -526,6 +548,8 @@ Rails/UnknownEnv:
   - staging
   - test
 Rails/Validation:
+  Enabled: true
+Rails/WhereExists:
   Enabled: true
 
 Rake/ClassDefinitionInTask:
@@ -660,6 +684,8 @@ Style/Alias:
   EnforcedStyle: prefer_alias_method
 Style/AndOr:
   Enabled: true
+Style/ArrayCoercion:
+  Enabled: true
 Style/ArrayJoin:
   Enabled: true
 Style/Attr:
@@ -680,6 +706,8 @@ Style/BlockDelimiters:
   Enabled: true
   Exclude:
   - spec/**/*
+Style/CaseLikeIf:
+  Enabled: true
 Style/CharacterLiteral:
   Enabled: true
 Style/ClassCheck:
@@ -736,6 +764,8 @@ Style/For:
 Style/GlobalVars:
   Enabled: true
 Style/HashEachMethods:
+  Enabled: true
+Style/HashLikeCase:
   Enabled: true
 Style/HashSyntax:
   Enabled: true
@@ -838,6 +868,8 @@ Style/RedundantConditional:
 Style/RedundantException:
   Enabled: true
 Style/RedundantFetchBlock:
+  Enabled: true
+Style/RedundantFileExtensionInRequire:
   Enabled: true
 Style/RedundantFreeze:
   Enabled: true
