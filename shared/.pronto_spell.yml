@@ -1,8 +1,7 @@
 files_to_lint: '\.(cjsx|js|jsx|haml|md|rb)$'
 whitelist:
   - '^(?:[0-9a-fA-F]{3}){2}$' # hex colors, e.g. ffffff
-  - '^p[abhlrtv]xxx?l$' # CSS class names, e.g. pvxxxl
-  - '^m[abhlrtv]xxx?l$' # CSS class names, e.g. mbxxl
+  - '^[mp][abhlrtv]xxx?l$' # CSS class names, e.g. pvxxxl
   - ^sub        # subclass, subquery, subnet
   - '[ai]ble$'  # joinable, deletable, invertible
   - '[eo]rs?$'  # accessor, shortener, approvers
