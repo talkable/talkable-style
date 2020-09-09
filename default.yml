@@ -160,6 +160,8 @@ Lint/AmbiguousRegexpLiteral:
   Enabled: true
 Lint/BigDecimalNew:
   Enabled: true
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
 Lint/BooleanSymbol:
   Enabled: true
 Lint/CircularArgumentReference:
@@ -180,13 +182,21 @@ Lint/DuplicateHashKey:
   Enabled: true
 Lint/DuplicateMethods:
   Enabled: true
+Lint/DuplicateRescueException:
+  Enabled: true
+Lint/DuplicateRequire:
+  Enabled: true
 Lint/EachWithObjectArgument:
   Enabled: true
 Lint/ElseLayout:
   Enabled: true
+Lint/EmptyConditionalBody:
+  Enabled: true
 Lint/EmptyEnsure:
   Enabled: true
 Lint/EmptyExpression:
+  Enabled: true
+Lint/EmptyFile:
   Enabled: true
 Lint/EmptyInterpolation:
   Enabled: true
@@ -195,6 +205,8 @@ Lint/EmptyWhen:
 Lint/EnsureReturn:
   Enabled: true
 Lint/FlipFlop:
+  Enabled: true
+Lint/FloatComparison:
   Enabled: true
 Lint/FloatOutOfRange:
   Enabled: true
@@ -217,6 +229,8 @@ Lint/Loop:
   Enabled: true
 Lint/MissingCopEnableDirective:
   Enabled: true
+Lint/MissingSuper:
+  Enabled: true
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
 Lint/MultipleComparison:
@@ -228,6 +242,8 @@ Lint/NextWithoutAccumulator:
 Lint/NonDeterministicRequireOrder:
   Enabled: true
 Lint/NonLocalExitFromIterator:
+  Enabled: true
+Lint/OutOfRangeRegexpRef:
   Enabled: true
 Lint/ParenthesesAsGroupedExpression:
   Enabled: true
@@ -277,6 +293,8 @@ Lint/SafeNavigationWithEmpty:
   Enabled: true
 Lint/ScriptPermission:
   Enabled: true
+Lint/SelfAssignment:
+  Enabled: true
 Lint/SendWithMixinArgument:
   Enabled: true
 Lint/ShadowedException:
@@ -285,9 +303,15 @@ Lint/StructNewOverride:
   Enabled: true
 Lint/ToJSON:
   Enabled: true
+Lint/TopLevelReturnWithArgument:
+  Enabled: true
+Lint/TrailingCommaInAttributeDeclaration:
+  Enabled: true
 Lint/UnifiedInteger:
   Enabled: true
 Lint/UnreachableCode:
+  Enabled: true
+Lint/UnreachableLoop:
   Enabled: true
 Lint/UnusedBlockArgument:
   Enabled: true
@@ -301,9 +325,9 @@ Lint/UselessAccessModifier:
   Enabled: true
 Lint/UselessAssignment:
   Enabled: true
-Lint/UselessComparison:
-  Enabled: true
 Lint/UselessElseWithoutRescue:
+  Enabled: true
+Lint/UselessMethodDefinition:
   Enabled: true
 Lint/UselessSetterCall:
   Enabled: true
@@ -347,6 +371,8 @@ Performance/Caller:
 Performance/Casecmp:
   Enabled: true
 Performance/CaseWhenSplat:
+  Enabled: true
+Performance/CollectionLiteralInLoop:
   Enabled: true
 Performance/CompareWithBlock:
   Enabled: true
@@ -400,6 +426,8 @@ Performance/StringInclude:
   Enabled: true
 Performance/StringReplacement:
   Enabled: true
+Performance/Sum:
+  Enabled: true
 Performance/TimesMap:
   Enabled: true
 Performance/UnfreezeString:
@@ -416,6 +444,8 @@ Rails/ActiveRecordCallbacksOrder:
 Rails/ActiveRecordOverride:
   Enabled: true
 Rails/ActiveSupportAliases:
+  Enabled: true
+Rails/AfterCommitOverride:
   Enabled: true
 Rails/ApplicationController:
   Enabled: true
@@ -484,6 +514,8 @@ Rails/NegateInclude:
   Enabled: true
 Rails/NotNullColumn:
   Enabled: true
+Rails/OrderById:
+  Enabled: true
 Rails/PluckId:
   Enabled: true
 Rails/PluckInWhere:
@@ -534,6 +566,8 @@ Rails/SkipsModelValidations:
   Exclude:
   - db/**/*
   - spec/**/*
+Rails/SquishedSQLHeredocs:
+  Enabled: true
 Rails/TimeZone:
   Enabled: true
 Rails/UniqBeforePluck:
@@ -550,6 +584,8 @@ Rails/UnknownEnv:
 Rails/Validation:
   Enabled: true
 Rails/WhereExists:
+  Enabled: true
+Rails/WhereNot:
   Enabled: true
 
 Rake/ClassDefinitionInTask:
@@ -725,6 +761,8 @@ Style/ColonMethodCall:
   Enabled: true
 Style/ColonMethodDefinition:
   Enabled: true
+Style/CombinableLoops:
+  Enabled: true
 Style/CommentAnnotation:
   Enabled: true
 Style/ConditionalAssignment:
@@ -755,11 +793,15 @@ Style/EvenOdd:
   Enabled: true
 Style/ExpandPathArguments:
   Enabled: true
+Style/ExplicitBlockArgument:
+  Enabled: true
 Style/ExponentialNotation:
   Enabled: true
 Style/FloatDivision:
   Enabled: true
 Style/For:
+  Enabled: true
+Style/GlobalStdStream:
   Enabled: true
 Style/GlobalVars:
   Enabled: true
@@ -785,6 +827,8 @@ Style/InfiniteLoop:
   Enabled: true
 Style/InverseMethods:
   Enabled: true
+Style/KeywordParametersOrder:
+  Enabled: true
 Style/LambdaCall:
   Enabled: true
 Style/LineEndConcatenation:
@@ -792,8 +836,6 @@ Style/LineEndConcatenation:
 Style/MethodCallWithoutArgsParentheses:
   Enabled: true
 Style/MethodDefParentheses:
-  Enabled: true
-Style/MethodMissingSuper:
   Enabled: true
 Style/MinMax:
   Enabled: true
@@ -887,6 +929,8 @@ Style/RedundantReturn:
   Enabled: true
 Style/RedundantSelf:
   Enabled: true
+Style/RedundantSelfAssignment:
+  Enabled: true
 Style/RedundantSort:
   Enabled: true
 Style/RedundantSortBy:
@@ -903,13 +947,19 @@ Style/SelfAssignment:
   Enabled: true
 Style/SignalException:
   Enabled: true
+Style/SingleArgumentDig:
+  Enabled: true
 Style/SlicingWithRange:
+  Enabled: true
+Style/SoleNestedConditional:
   Enabled: true
 Style/SpecialGlobalVars:
   Enabled: true
 Style/StabbyLambdaParentheses:
   Enabled: true
 Style/StderrPuts:
+  Enabled: true
+Style/StringConcatenation:
   Enabled: true
 Style/StringMethods:
   Enabled: true

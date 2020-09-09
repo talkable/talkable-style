@@ -9,9 +9,11 @@ Gemfile
 HABTM
 IPAddr
 Magadan
+Pragma
 Procfile
 Rakefile
 Simba
+ablyaev
 abtest
 activerecord
 activesupport
@@ -41,7 +43,10 @@ atwho
 authlogic
 autocomplete
 autofocus
+autohide
+autoplay
 autosave
+autotrack
 avantgo
 awstrust
 babelrc
@@ -86,6 +91,7 @@ cellspacing
 changelog
 charset
 checkbox
+chunkhash
 circleci
 claimcode
 classnames
@@ -148,13 +154,16 @@ elasticache
 elasticloadbalancing
 elasticsearch
 elsif
+emmet
 endcomment
 endif
 enqueue
 enqueuing
 entrypoints
+enver
 erubi
 eslint
+eslintrc
 evalsha
 evenodd
 evgeniy
@@ -189,6 +198,7 @@ gotham
 gplus
 grammarly
 grault
+grecaptcha
 grotesk
 guban
 gusieva
@@ -197,6 +207,7 @@ gymboree
 hanmail
 hanna
 hapikey
+hashchange
 hashie
 helvetica
 heredoc
@@ -275,6 +286,7 @@ mailgun
 mailto
 makara
 maskedinput
+mastercard
 maxlength
 maxselected
 mayvenn
@@ -296,8 +308,11 @@ monday
 mongo
 monospace
 mousedown
+mouseenter
 mouseleave
 mousemove
+mouseout
+mouseover
 mouseup
 mousewheel
 mozilla
@@ -335,6 +350,7 @@ onboarding
 onchange
 onclick
 onhashchange
+oninput
 onload
 onreadystatechange
 onsubmit
@@ -364,6 +380,7 @@ postcss
 postgre
 postgres
 postgresql
+postmessage
 precompile
 preflight
 preformat
@@ -373,6 +390,7 @@ prepend
 preprocess
 presigned
 prestashop
+prettierrc
 processlist
 procs
 prontolabs
@@ -445,6 +463,7 @@ stylesheet
 stylesheets
 sunday
 sunduk
+swfobject
 symbian
 tabindex
 talkableq
@@ -465,6 +484,10 @@ timeline
 timestamp
 tinyint
 tooltip
+touchcancel
+touchend
+touchmove
+touchstart
 trackjs
 transactional
 transitionend
@@ -480,6 +503,7 @@ ukhova
 uncached
 uncomment
 unicode
+unionpay
 unmapped
 unmount
 unordered
