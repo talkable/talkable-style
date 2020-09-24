@@ -129,6 +129,7 @@ datalist
 dataset
 datestamp
 datetime
+dayjs
 daystamp
 debounce
 decrypted
