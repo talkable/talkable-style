@@ -39,6 +39,8 @@ Layout/ArrayAlignment:
   Enabled: true
 Layout/AssignmentIndentation:
   Enabled: true
+Layout/BeginEndAlignment:
+  Enabled: true
 Layout/BlockAlignment:
   Enabled: true
 Layout/BlockEndNewline:
@@ -166,6 +168,8 @@ Lint/BooleanSymbol:
   Enabled: true
 Lint/CircularArgumentReference:
   Enabled: true
+Lint/ConstantDefinitionInBlock:
+  Enabled: true
 Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
@@ -213,6 +217,8 @@ Lint/FloatOutOfRange:
 Lint/FormatParameterMismatch:
   Enabled: true
 Lint/HeredocMethodCallPosition:
+  Enabled: true
+Lint/IdentityComparison:
   Enabled: true
 Lint/ImplicitStringConcatenation:
   Enabled: true
@@ -286,6 +292,7 @@ Lint/SafeNavigationChain:
   - blank?
   - presence
   - try
+  - try!
   - to_bool
   - to_liquid
   - in?
@@ -330,6 +337,8 @@ Lint/UselessElseWithoutRescue:
 Lint/UselessMethodDefinition:
   Enabled: true
 Lint/UselessSetterCall:
+  Enabled: true
+Lint/UselessTimes:
   Enabled: true
 Lint/Void:
   Enabled: true
