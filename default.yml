@@ -216,6 +216,8 @@ Lint/FloatOutOfRange:
   Enabled: true
 Lint/FormatParameterMismatch:
   Enabled: true
+Lint/HashCompareByIdentity:
+  Enabled: true
 Lint/HeredocMethodCallPosition:
   Enabled: true
 Lint/IdentityComparison:
@@ -266,6 +268,8 @@ Lint/RedundantCopDisableDirective:
 Lint/RedundantCopEnableDirective:
   Enabled: true
 Lint/RedundantRequireStatement:
+  Enabled: true
+Lint/RedundantSafeNavigation:
   Enabled: true
 Lint/RedundantSplatExpansion:
   Enabled: true
@@ -757,6 +761,8 @@ Style/CharacterLiteral:
   Enabled: true
 Style/ClassCheck:
   Enabled: true
+Style/ClassEqualityComparison:
+  Enabled: true
 Style/ClassMethods:
   Enabled: true
 Style/CollectionMethods:
@@ -893,6 +899,8 @@ Style/NumericLiterals:
 Style/OneLineConditional:
   Enabled: true
 Style/OptionalArguments:
+  Enabled: true
+Style/OptionalBooleanParameter:
   Enabled: true
 Style/ParenthesesAroundCondition:
   Enabled: true
