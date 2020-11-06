@@ -19,20 +19,6 @@ Bundler/DuplicatedGem:
 Bundler/InsecureProtocolSource:
   Enabled: true
 
-Capybara/CurrentPathExpectation:
-  Enabled: true
-Capybara/FeatureMethods:
-  Enabled: true
-Capybara/VisibilityMatcher:
-  Enabled: true
-
-FactoryBot/AttributeDefinedStatically:
-  Enabled: true
-FactoryBot/CreateList:
-  Enabled: true
-FactoryBot/FactoryClassName:
-  Enabled: true
-
 Layout/AccessModifierIndentation:
   Enabled: true
 Layout/ArrayAlignment:
@@ -186,6 +172,8 @@ Lint/DuplicateHashKey:
   Enabled: true
 Lint/DuplicateMethods:
   Enabled: true
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
 Lint/DuplicateRescueException:
   Enabled: true
 Lint/DuplicateRequire:
@@ -193,6 +181,8 @@ Lint/DuplicateRequire:
 Lint/EachWithObjectArgument:
   Enabled: true
 Lint/ElseLayout:
+  Enabled: true
+Lint/EmptyBlock:
   Enabled: true
 Lint/EmptyConditionalBody:
   Enabled: true
@@ -312,6 +302,8 @@ Lint/ShadowedException:
   Enabled: true
 Lint/StructNewOverride:
   Enabled: true
+Lint/ToEnumArguments:
+  Enabled: true
 Lint/ToJSON:
   Enabled: true
 Lint/TopLevelReturnWithArgument:
@@ -319,6 +311,8 @@ Lint/TopLevelReturnWithArgument:
 Lint/TrailingCommaInAttributeDeclaration:
   Enabled: true
 Lint/UnifiedInteger:
+  Enabled: true
+Lint/UnmodifiedReduceAccumulator:
   Enabled: true
 Lint/UnreachableCode:
   Enabled: true
@@ -620,6 +614,12 @@ RSpec/BeEql:
   Enabled: true
 RSpec/BeforeAfterAll:
   Enabled: true
+RSpec/Capybara/CurrentPathExpectation:
+  Enabled: true
+RSpec/Capybara/FeatureMethods:
+  Enabled: true
+RSpec/Capybara/VisibilityMatcher:
+  Enabled: true
 RSpec/ContextMethod:
   Enabled: true
 RSpec/DescribeClass:
@@ -653,6 +653,12 @@ RSpec/ExpectInHook:
   Enabled: true
 RSpec/ExpectOutput:
   Enabled: true
+RSpec/FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+RSpec/FactoryBot/CreateList:
+  Enabled: true
+RSpec/FactoryBot/FactoryClassName:
+  Enabled: true
 RSpec/FilePath:
   Enabled: true
   IgnoreMethods: true
@@ -681,6 +687,8 @@ RSpec/MultipleDescribes:
 RSpec/MultipleSubjects:
   Enabled: true
 RSpec/OverwritingSetup:
+  Enabled: true
+RSpec/Rails/HttpStatus:
   Enabled: true
 RSpec/ReceiveCounts:
   Enabled: true
@@ -733,6 +741,8 @@ Style/Alias:
   EnforcedStyle: prefer_alias_method
 Style/AndOr:
   Enabled: true
+Style/ArgumentsForwarding:
+  Enabled: true
 Style/ArrayCoercion:
   Enabled: true
 Style/ArrayJoin:
@@ -765,6 +775,8 @@ Style/ClassEqualityComparison:
   Enabled: true
 Style/ClassMethods:
   Enabled: true
+Style/CollectionCompact:
+  Enabled: true
 Style/CollectionMethods:
   Enabled: true
   PreferredMethods:
@@ -787,6 +799,8 @@ Style/DateTime:
 Style/DefWithParentheses:
   Enabled: true
 Style/Dir:
+  Enabled: true
+Style/DocumentDynamicEvalDefinition:
   Enabled: true
 Style/EachForSimpleLoop:
   Enabled: true
@@ -873,6 +887,8 @@ Style/MultilineWhenThen:
 Style/MultipleComparison:
   Enabled: true
 Style/MutableConstant:
+  Enabled: true
+Style/NegatedIfElseCondition:
   Enabled: true
 Style/NegatedIf:
   Enabled: true
@@ -983,6 +999,8 @@ Style/StringMethods:
 Style/Strip:
   Enabled: true
 Style/StructInheritance:
+  Enabled: true
+Style/SwapValues:
   Enabled: true
 Style/SymbolLiteral:
   Enabled: true
