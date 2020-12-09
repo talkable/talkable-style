@@ -13,6 +13,11 @@ AllCops:
   DisabledByDefault: true
   TargetRubyVersion: 2.6
   TargetRailsVersion: 6.0
+RSpec:
+  Language:
+    Includes:
+      Examples:
+        - it_has_behavior
 
 Bundler/DuplicatedGem:
   Enabled: true
@@ -164,6 +169,8 @@ Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
+Lint/DuplicateBranch:
+  Enabled: true
 Lint/DuplicateCaseCondition:
   Enabled: true
 Lint/DuplicateElsifCondition:
@@ -183,6 +190,8 @@ Lint/EachWithObjectArgument:
 Lint/ElseLayout:
   Enabled: true
 Lint/EmptyBlock:
+  Enabled: true
+Lint/EmptyClass:
   Enabled: true
 Lint/EmptyConditionalBody:
   Enabled: true
@@ -310,6 +319,8 @@ Lint/TopLevelReturnWithArgument:
   Enabled: true
 Lint/TrailingCommaInAttributeDeclaration:
   Enabled: true
+Lint/UnexpectedBlockArity:
+  Enabled: true
 Lint/UnifiedInteger:
   Enabled: true
 Lint/UnmodifiedReduceAccumulator:
@@ -373,6 +384,8 @@ Performance/BigDecimalWithNumericArgument:
   Enabled: true
 Performance/BindCall:
   Enabled: true
+Performance/BlockGivenWithExplicitBlock:
+  Enabled: true
 Performance/Caller:
   Enabled: true
 Performance/Casecmp:
@@ -382,6 +395,8 @@ Performance/CaseWhenSplat:
 Performance/CollectionLiteralInLoop:
   Enabled: true
 Performance/CompareWithBlock:
+  Enabled: true
+Performance/ConstantRegexp:
   Enabled: true
 Performance/Count:
   Enabled: true
@@ -461,6 +476,10 @@ Rails/ApplicationJob:
 Rails/ApplicationMailer:
   Enabled: true
 Rails/ApplicationRecord:
+  Enabled: true
+Rails/ArelStar:
+  Enabled: true
+Rails/AttributeDefaultBlockValue:
   Enabled: true
 Rails/BelongsTo:
   Enabled: true
@@ -590,6 +609,8 @@ Rails/UnknownEnv:
   - test
 Rails/Validation:
   Enabled: true
+Rails/WhereEquals:
+  Enabled: true
 Rails/WhereExists:
   Enabled: true
 Rails/WhereNot:
@@ -637,8 +658,6 @@ RSpec/DescribedClassModuleWrapping:
   Enabled: true
 RSpec/EmptyExampleGroup:
   Enabled: true
-  CustomIncludeMethods:
-  - it_has_behavior
 RSpec/EmptyHook:
   Enabled: true
 RSpec/EmptyLineAfterExample:
@@ -669,8 +688,6 @@ RSpec/HooksBeforeExamples:
 RSpec/InstanceSpy:
   Enabled: true
 RSpec/InstanceVariable:
-  Enabled: true
-RSpec/InvalidPredicateMatcher:
   Enabled: true
 RSpec/ItBehavesLike:
   Enabled: true
@@ -711,6 +728,8 @@ RSpec/SharedContext:
 RSpec/SharedExamples:
   Enabled: true
 RSpec/SingleArgumentMessageChain:
+  Enabled: true
+RSpec/StubbedMock:
   Enabled: true
 RSpec/VariableDefinition:
   Enabled: true
@@ -904,6 +923,8 @@ Style/Next:
   Enabled: true
 Style/NilComparison:
   Enabled: true
+Style/NilLambda:
+  Enabled: true
 Style/NonNilCheck:
   Enabled: true
 Style/Not:
@@ -929,6 +950,8 @@ Style/PreferredHashMethods:
 Style/Proc:
   Enabled: true
 Style/RaiseArgs:
+  Enabled: true
+Style/RedundantArgument:
   Enabled: true
 Style/RedundantAssignment:
   Enabled: true
@@ -989,6 +1012,8 @@ Style/SoleNestedConditional:
 Style/SpecialGlobalVars:
   Enabled: true
 Style/StabbyLambdaParentheses:
+  Enabled: true
+Style/StaticClass:
   Enabled: true
 Style/StderrPuts:
   Enabled: true
