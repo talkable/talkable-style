@@ -97,6 +97,7 @@ charset
 checkbox
 chuchko
 chunkhash
+ciphertext
 circleci
 claimcode
 classnames
@@ -120,6 +121,7 @@ coveralls
 creloaded
 crosshair
 crossorigin
+crypted
 crypto
 curebit
 curology
@@ -247,6 +249,7 @@ instafeed
 instafeedjs
 instagram
 instanceof
+ipsum
 itemprop
 itemscope
 itemtype
@@ -286,6 +289,7 @@ lindman
 linecap
 linejoin
 linkedin
+listrak
 localhost
 localization
 localizations
@@ -293,6 +297,7 @@ lockbox
 lodash
 lograge
 lookup
+lorem
 maemo
 magento
 magick
@@ -589,10 +594,13 @@ ymail
 youtube
 yurii
 zalora
+zcount
 zeitwerk
 zencart
 zendesk
 zerocase
 zhuravel
+zrange
 zrangebyscore
+zrank
 zremrangebyscore

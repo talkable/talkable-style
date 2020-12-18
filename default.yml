@@ -124,6 +124,8 @@ Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 Layout/SpaceAroundOperators:
   Enabled: true
+Layout/SpaceBeforeBrackets:
+  Enabled: true
 Layout/SpaceBeforeComma:
   Enabled: true
 Layout/SpaceBeforeComment:
@@ -147,6 +149,8 @@ Layout/TrailingEmptyLines:
 Layout/TrailingWhitespace:
   Enabled: true
 
+Lint/AmbiguousAssignment:
+  Enabled: true
 Lint/AmbiguousOperator:
   Enabled: true
 Lint/AmbiguousRegexpLiteral:
@@ -854,6 +858,8 @@ Style/GlobalStdStream:
 Style/GlobalVars:
   Enabled: true
 Style/HashEachMethods:
+  Enabled: true
+Style/HashExcept:
   Enabled: true
 Style/HashLikeCase:
   Enabled: true
