@@ -169,6 +169,8 @@ Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
   Enabled: true
+Lint/DeprecatedConstants:
+  Enabled: true
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 Lint/DisjunctiveAssignmentInConstructor:
@@ -269,6 +271,8 @@ Lint/RandOne:
 Lint/RedundantCopDisableDirective:
   Enabled: true
 Lint/RedundantCopEnableDirective:
+  Enabled: true
+Lint/RedundantDirGlobSort:
   Enabled: true
 Lint/RedundantRequireStatement:
   Enabled: true
@@ -838,6 +842,8 @@ Style/EmptyLambdaParameter:
 Style/EmptyLiteral:
   Enabled: true
 Style/EndBlock:
+  Enabled: true
+Style/EndlessMethod:
   Enabled: true
 Style/EvalWithLocation:
   Enabled: true
