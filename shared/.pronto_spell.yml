@@ -1,4 +1,4 @@
-files_to_lint: '\.(cjsx|js|jsx|ts|tsx|haml|md|rb)$'
+files_to_lint: '\.(js|jsx|ts|tsx|haml|md|rb|erb|liquid)$'
 whitelist:
   - '^(?:[0-9a-fA-F]{3}){2}$' # hex colors, e.g. ffffff
   - '^[mp][abhlrtv]xxx?l$' # CSS class names, e.g. pvxxxl
