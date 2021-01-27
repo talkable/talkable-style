@@ -770,6 +770,7 @@ Style/AndOr:
   Enabled: true
 Style/ArgumentsForwarding:
   Enabled: true
+  AllowOnlyRestArgument: false
 Style/ArrayCoercion:
   Enabled: true
 Style/ArrayJoin:
