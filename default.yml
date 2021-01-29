@@ -256,6 +256,10 @@ Lint/NonDeterministicRequireOrder:
   Enabled: true
 Lint/NonLocalExitFromIterator:
   Enabled: true
+Lint/NumberedParameterAssignment:
+  Enabled: true
+Lint/OrAssignmentToConstant:
+  Enabled: true
 Lint/OutOfRangeRegexpRef:
   Enabled: true
 Lint/ParenthesesAsGroupedExpression:
@@ -319,6 +323,8 @@ Lint/ShadowedException:
   Enabled: true
 Lint/StructNewOverride:
   Enabled: true
+Lint/SymbolConversion:
+  Enabled: true
 Lint/ToEnumArguments:
   Enabled: true
 Lint/ToJSON:
@@ -326,6 +332,8 @@ Lint/ToJSON:
 Lint/TopLevelReturnWithArgument:
   Enabled: true
 Lint/TrailingCommaInAttributeDeclaration:
+  Enabled: true
+Lint/TripleQuotes:
   Enabled: true
 Lint/UnexpectedBlockArity:
   Enabled: true
@@ -881,6 +889,8 @@ Style/IdenticalConditionalBranches:
 Style/IfInsideElse:
   Enabled: true
 Style/IfUnlessModifierOfIfUnless:
+  Enabled: true
+Style/IfWithBooleanLiteralBranches:
   Enabled: true
 Style/IfWithSemicolon:
   Enabled: true
