@@ -872,6 +872,8 @@ Style/GlobalStdStream:
   Enabled: true
 Style/GlobalVars:
   Enabled: true
+Style/HashConversion:
+  Enabled: true
 Style/HashEachMethods:
   Enabled: true
 Style/HashExcept:
