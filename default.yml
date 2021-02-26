@@ -12,7 +12,7 @@ AllCops:
   DisplayCopNames: false
   DisabledByDefault: true
   TargetRubyVersion: 2.7
-  TargetRailsVersion: 6.0
+  TargetRailsVersion: 6.1
 RSpec:
   Language:
     Includes:
