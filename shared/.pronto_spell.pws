@@ -15,6 +15,7 @@ Rakefile
 Simba
 ablyaev
 abtest
+activemodel
 activerecord
 activesupport
 addedfile
@@ -114,6 +115,7 @@ config
 configs
 consolas
 coords
+corejs
 corge
 couldn
 couponlist
@@ -164,6 +166,7 @@ elasticache
 elasticloadbalancing
 elasticsearch
 elsif
+emarsys
 emmet
 endcapture
 endcomment
@@ -461,6 +464,7 @@ salesforce
 santa
 sassc
 savchenko
+savepoint
 savon
 savvina
 sbcglobal
