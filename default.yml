@@ -187,9 +187,9 @@ Lint/DuplicateMethods:
   Enabled: true
 Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
-Lint/DuplicateRescueException:
-  Enabled: true
 Lint/DuplicateRequire:
+  Enabled: true
+Lint/DuplicateRescueException:
   Enabled: true
 Lint/EachWithObjectArgument:
   Enabled: true
@@ -404,9 +404,9 @@ Performance/BlockGivenWithExplicitBlock:
   Enabled: true
 Performance/Caller:
   Enabled: true
-Performance/Casecmp:
-  Enabled: true
 Performance/CaseWhenSplat:
+  Enabled: true
+Performance/Casecmp:
   Enabled: true
 Performance/CollectionLiteralInLoop:
   Enabled: true
@@ -936,9 +936,9 @@ Style/MultipleComparison:
   Enabled: true
 Style/MutableConstant:
   Enabled: true
-Style/NegatedIfElseCondition:
-  Enabled: true
 Style/NegatedIf:
+  Enabled: true
+Style/NegatedIfElseCondition:
   Enabled: true
 Style/NegatedUnless:
   Enabled: true

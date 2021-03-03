@@ -35,6 +35,7 @@ american
 amongst
 analytics
 anonymized
+areaspline
 arial
 ascii
 asymp
@@ -208,6 +209,7 @@ freshdesk
 frontend
 georgiy
 giftclaim
+globbing
 gmail
 google
 googleads
@@ -312,6 +314,9 @@ lodash
 lograge
 lookup
 lorem
+lpush
+lrange
+ltrim
 maemo
 magento
 magick
@@ -340,6 +345,7 @@ mixins
 mockdate
 mockup
 mockups
+molekule
 monday
 mongo
 monospace
