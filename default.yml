@@ -1046,6 +1046,8 @@ Style/StaticClass:
   Enabled: true
 Style/StderrPuts:
   Enabled: true
+Style/StringChars:
+  Enabled: true
 Style/StringConcatenation:
   Enabled: true
 Style/StringMethods:

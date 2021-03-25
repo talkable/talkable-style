@@ -173,6 +173,7 @@ emmet
 endcapture
 endcomment
 endif
+endraw
 endunless
 enqueue
 enqueuing
@@ -294,6 +295,7 @@ klaviyo
 komar
 komiko
 kryvoruchko
+kubernetes
 labelledby
 laquo
 lastname
@@ -307,6 +309,8 @@ linecap
 linejoin
 linkedin
 listrak
+loadend
+loadstart
 localhost
 localization
 localizations
@@ -361,6 +365,7 @@ mousewheel
 mozilla
 multi
 mysql
+namespace
 nanoid
 nataliia
 navbar
@@ -388,6 +393,7 @@ oksana
 oleksandr
 olena
 olivia
+onabort
 onbeforeunload
 onboarded
 onboarding
@@ -396,8 +402,12 @@ onclick
 onhashchange
 oninput
 onload
+onloadend
+onloadstart
+onprogress
 onreadystatechange
 onsubmit
+ontimeout
 opencart
 openssl
 opentype
@@ -445,6 +455,7 @@ raquo
 rbenv
 rdquo
 readonly
+readystatechange
 reaggregate
 reaggregation
 recaptcha
@@ -483,6 +494,7 @@ sendgrid
 sephora
 sergey
 sergii
+setex
 severability
 severities
 sharded
@@ -610,6 +622,8 @@ workflow
 wouldn
 xboolean
 xbooleans
+xcontext
+xdescribe
 xiino
 xlarge
 xlink
