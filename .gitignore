@@ -1,6 +1,7 @@
 .DS_Store
 .rspec_status
 /.bundle/
+/.idea/
 /.yardoc
 /Gemfile.lock
 /_yardoc/
