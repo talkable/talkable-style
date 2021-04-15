@@ -1,4 +1,6 @@
-require "talkable/style/version"
+# frozen_string_literal: true
+
+require_relative "style/version"
 
 module Talkable
   module Style
