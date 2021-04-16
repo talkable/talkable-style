@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ -z "$CIRCLE_PULL_REQUEST" ]; then
+  echo "Not a Pull Request, skipping Pronto."
+  exit 0
+fi
+
+export PRONTO_GITHUB_SLUG="$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"
+export PRONTO_PULL_REQUEST_ID=$(echo "$CIRCLE_PULL_REQUEST" | grep -o 'pull.*' | cut -f2- -d/)
+
+url="https://api.github.com/repos/$PRONTO_GITHUB_SLUG/pulls/$PRONTO_PULL_REQUEST_ID"
+targetBranch=$(curl -H "Authorization: token $PRONTO_GITHUB_ACCESS_TOKEN" "$url" | jq '.base.ref' | tr -d '"')
+
+mkdir ~/.ssh
+ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+git fetch origin "$targetBranch"
+
+cp .pronto_spell.pws ~/.aspell.en.pws
+bundle exec pronto run -f github_pr_review github_status -c origin/"$targetBranch" || true
