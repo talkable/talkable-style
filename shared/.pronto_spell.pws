@@ -75,7 +75,8 @@ binarylogic
 binlog
 bitfield
 bitfields
-blacklist
+blocklist
+blocklisted
 blockquote
 bogdan
 bohdan
@@ -486,6 +487,7 @@ rothy
 rothys
 rowspan
 rspec
+rswag
 rubocop
 rubyonrails
 rybbon

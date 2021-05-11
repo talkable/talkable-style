@@ -434,6 +434,8 @@ Performance/InefficientHashSearch:
   Enabled: true
 Performance/IoReadlines:
   Enabled: true
+Performance/MapCompact:
+  Enabled: true
 Performance/RangeInclude:
   Enabled: true
 Performance/RedundantBlockCall:
@@ -593,8 +595,18 @@ Rails/RenderPlainText:
   Enabled: true
 Rails/RequestReferer:
   Enabled: true
+Rails/RequireDependency:
+  Enabled: true
 Rails/ReversibleMigration:
   Enabled: true
+  Include:
+  - db/migrate/*.rb
+  - db/sharded_migrate/*.rb
+Rails/ReversibleMigrationMethodDefinition:
+  Enabled: true
+  Include:
+  - db/migrate/*.rb
+  - db/sharded_migrate/*.rb
 Rails/SafeNavigation:
   Enabled: true
 Rails/SafeNavigationWithBlank:
@@ -615,6 +627,8 @@ Rails/SkipsModelValidations:
 Rails/SquishedSQLHeredocs:
   Enabled: true
 Rails/TimeZone:
+  Enabled: true
+Rails/TimeZoneAssignment:
   Enabled: true
 Rails/UniqBeforePluck:
   Enabled: true
