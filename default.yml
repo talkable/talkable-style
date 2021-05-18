@@ -1076,6 +1076,8 @@ Style/SymbolLiteral:
   Enabled: true
 Style/SymbolProc:
   Enabled: true
+Style/TopLevelMethodDefinition:
+  Enabled: true
 Style/TrailingBodyOnClass:
   Enabled: true
 Style/TrailingBodyOnModule:
