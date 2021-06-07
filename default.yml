@@ -207,6 +207,8 @@ Lint/EmptyExpression:
   Enabled: true
 Lint/EmptyFile:
   Enabled: true
+Lint/EmptyInPattern:
+  Enabled: true
 Lint/EmptyInterpolation:
   Enabled: true
 Lint/EmptyWhen:
@@ -939,6 +941,8 @@ Style/MixinUsage:
 Style/ModuleFunction:
   Enabled: true
 Style/MultilineIfThen:
+  Enabled: true
+Style/MultilineInPatternThen:
   Enabled: true
 Style/MultilineMemoization:
   Enabled: true
