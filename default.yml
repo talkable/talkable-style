@@ -491,6 +491,8 @@ Rails/ActiveRecordOverride:
   Enabled: true
 Rails/ActiveSupportAliases:
   Enabled: true
+Rails/AddColumnIndex:
+  Enabled: true
 Rails/AfterCommitOverride:
   Enabled: true
 Rails/ApplicationController:
@@ -529,6 +531,8 @@ Rails/EnumUniqueness:
 Rails/EnvironmentComparison:
   Enabled: true
 Rails/Exit:
+  Enabled: true
+Rails/ExpandedDateRange:
   Enabled: true
 Rails/FindBy:
   Enabled: true
@@ -643,6 +647,8 @@ Rails/UnknownEnv:
   - production
   - staging
   - test
+Rails/UnusedIgnoredColumns:
+  Enabled: true
 Rails/Validation:
   Enabled: true
 Rails/WhereEquals:
@@ -721,6 +727,8 @@ RSpec/Focus:
   Enabled: true
 RSpec/HooksBeforeExamples:
   Enabled: true
+RSpec/IdenticalEqualityAssertion:
+  Enabled: true
 RSpec/InstanceSpy:
   Enabled: true
 RSpec/InstanceVariable:
@@ -740,6 +748,8 @@ RSpec/MultipleDescribes:
 RSpec/MultipleSubjects:
   Enabled: true
 RSpec/OverwritingSetup:
+  Enabled: true
+RSpec/Rails/AvoidSetupHook:
   Enabled: true
 RSpec/Rails/HttpStatus:
   Enabled: true
