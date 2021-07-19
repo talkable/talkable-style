@@ -381,6 +381,8 @@ Naming/ConstantName:
   Enabled: true
 Naming/FileName:
   Enabled: true
+Naming/InclusiveLanguage:
+  Enabled: true
 Naming/MemoizedInstanceVariableName:
   Enabled: true
 Naming/MethodName:
