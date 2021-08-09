@@ -2,6 +2,6 @@
 
 module Talkable
   module Style
-    VERSION = "1.2021.0415"
+    VERSION = "1.2021.0810"
   end
 end

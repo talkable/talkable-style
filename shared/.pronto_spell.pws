@@ -153,6 +153,7 @@ datetime
 dayjs
 daystamp
 debounce
+decrypt
 decrypted
 decrypts
 dehtiar
@@ -231,6 +232,7 @@ googleapis
 googleauth
 googleusercontent
 gotham
+gpgme
 gplus
 grammarly
 graphi
@@ -537,6 +539,7 @@ smallint
 sokoglam
 solano
 solesociety
+sortablejs
 squareupsandbox
 srcset
 stacey
