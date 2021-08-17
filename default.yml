@@ -153,6 +153,8 @@ Lint/AmbiguousAssignment:
   Enabled: true
 Lint/AmbiguousOperator:
   Enabled: true
+Lint/AmbiguousRange:
+  Enabled: true
 Lint/AmbiguousRegexpLiteral:
   Enabled: true
 Lint/BigDecimalNew:
@@ -1044,6 +1046,8 @@ Style/RedundantReturn:
 Style/RedundantSelf:
   Enabled: true
 Style/RedundantSelfAssignment:
+  Enabled: true
+Style/RedundantSelfAssignmentBranch:
   Enabled: true
 Style/RedundantSort:
   Enabled: true
