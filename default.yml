@@ -153,6 +153,8 @@ Lint/AmbiguousAssignment:
   Enabled: true
 Lint/AmbiguousOperator:
   Enabled: true
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
 Lint/AmbiguousRange:
   Enabled: true
 Lint/AmbiguousRegexpLiteral:
@@ -232,6 +234,8 @@ Lint/HeredocMethodCallPosition:
 Lint/IdentityComparison:
   Enabled: true
 Lint/ImplicitStringConcatenation:
+  Enabled: true
+Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
 Lint/IneffectiveAccessModifier:
   Enabled: true
@@ -594,6 +598,8 @@ Rails/ReadWriteAttribute:
 Rails/RedundantAllowNil:
   Enabled: true
 Rails/RedundantReceiverInWithOptions:
+  Enabled: true
+Rails/RedundantTravelBack:
   Enabled: true
 Rails/ReflectionClassName:
   Enabled: true
