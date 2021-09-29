@@ -302,6 +302,8 @@ Lint/RegexpAsCondition:
   Enabled: true
 Lint/RequireParentheses:
   Enabled: true
+Lint/RequireRelativeSelfPath:
+  Enabled: true
 Lint/RescueException:
   Enabled: true
 Lint/RescueType:
@@ -720,6 +722,8 @@ RSpec/ExampleWithoutDescription:
   Enabled: true
 RSpec/ExampleWording:
   Enabled: true
+RSpec/ExcessiveDocstringSpacing:
+  Enabled: true
 RSpec/ExpectInHook:
   Enabled: true
 RSpec/ExpectOutput:
@@ -787,6 +791,8 @@ RSpec/SingleArgumentMessageChain:
   Enabled: true
 RSpec/StubbedMock:
   Enabled: true
+RSpec/SubjectDeclaration:
+  Enabled: true
 RSpec/VariableDefinition:
   Enabled: true
 RSpec/VariableName:
@@ -799,6 +805,8 @@ RSpec/Yield:
   Enabled: true
 
 Security/Eval:
+  Enabled: true
+Security/IoMethods:
   Enabled: true
 Security/JSONLoad:
   Enabled: true
@@ -995,6 +1003,10 @@ Style/NonNilCheck:
   Enabled: true
 Style/Not:
   Enabled: true
+Style/NumberedParameters:
+  Enabled: true
+Style/NumberedParametersLimit:
+  Enabled: true
 Style/NumericLiteralPrefix:
   Enabled: true
 Style/NumericLiterals:
@@ -1066,6 +1078,8 @@ Style/ReturnNil:
 Style/SafeNavigation:
   Enabled: true
 Style/Sample:
+  Enabled: true
+Style/SelectByRegexp:
   Enabled: true
 Style/SelfAssignment:
   Enabled: true
