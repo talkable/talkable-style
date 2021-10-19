@@ -801,7 +801,6 @@ RSpec/VariableDefinition:
   Enabled: true
 RSpec/VariableName:
   Enabled: true
-  - spec/requests/api_v2/metrics_spec.rb
 RSpec/VerifiedDoubles:
   Enabled: true
 RSpec/VoidExpect:
