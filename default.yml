@@ -712,6 +712,8 @@ RSpec/DescribedClassModuleWrapping:
   Enabled: true
 RSpec/EmptyExampleGroup:
   Enabled: true
+  Exclude:
+  - spec/requests/api_v2/**/*
 RSpec/EmptyHook:
   Enabled: true
 RSpec/EmptyLineAfterExample:
@@ -737,6 +739,8 @@ RSpec/FactoryBot/FactoryClassName:
 RSpec/FilePath:
   Enabled: true
   IgnoreMethods: true
+  Exclude:
+  - spec/requests/api_v2/**/*
 RSpec/Focus:
   Enabled: true
 RSpec/HooksBeforeExamples:
@@ -797,6 +801,7 @@ RSpec/VariableDefinition:
   Enabled: true
 RSpec/VariableName:
   Enabled: true
+  - spec/requests/api_v2/metrics_spec.rb
 RSpec/VerifiedDoubles:
   Enabled: true
 RSpec/VoidExpect:
