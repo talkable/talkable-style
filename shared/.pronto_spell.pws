@@ -4,9 +4,12 @@ CDATA
 CNAME
 Capfile
 DATEDIFF
+DOCTYPE
 Dockerfile
+FIXME
 Gemfile
 HABTM
+Homebrew
 IPAddr
 Intellipse
 Magadan
@@ -153,6 +156,7 @@ datestamp
 datetime
 dayjs
 daystamp
+dbconsole
 debounce
 decrypt
 decrypted
@@ -289,6 +293,7 @@ ivars
 javascript
 jeremy
 jquery
+jshint
 jsonb
 jspdf
 julia
@@ -312,6 +317,8 @@ klaviyo
 komar
 komiko
 kryvoruchko
+kubeconfig
+kubectl
 kubernetes
 labelledby
 laquo
@@ -423,6 +430,7 @@ oninput
 onload
 onloadend
 onloadstart
+onmessage
 onprogress
 onreadystatechange
 onsubmit
