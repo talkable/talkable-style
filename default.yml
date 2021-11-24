@@ -371,6 +371,8 @@ Lint/UselessElseWithoutRescue:
   Enabled: true
 Lint/UselessMethodDefinition:
   Enabled: true
+Lint/UselessRuby2Keywords:
+  Enabled: true
 Lint/UselessSetterCall:
   Enabled: true
 Lint/UselessTimes:
@@ -1016,6 +1018,8 @@ Style/NumericLiteralPrefix:
 Style/NumericLiterals:
   Enabled: true
 Style/OneLineConditional:
+  Enabled: true
+Style/OpenStructUse:
   Enabled: true
 Style/OptionalArguments:
   Enabled: true
