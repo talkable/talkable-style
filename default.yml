@@ -385,6 +385,8 @@ Metrics/BlockNesting:
 
 Naming/AsciiIdentifiers:
   Enabled: true
+Naming/BlockForwarding:
+  Enabled: true
 Naming/ClassAndModuleCamelCase:
   Enabled: true
 Naming/ConstantName:
@@ -917,6 +919,10 @@ Style/ExplicitBlockArgument:
   Enabled: true
 Style/ExponentialNotation:
   Enabled: true
+Style/FileRead:
+  Enabled: true
+Style/FileWrite:
+  Enabled: true
 Style/FloatDivision:
   Enabled: true
 Style/For:
@@ -958,6 +964,8 @@ Style/KeywordParametersOrder:
 Style/LambdaCall:
   Enabled: true
 Style/LineEndConcatenation:
+  Enabled: true
+Style/MapToHash:
   Enabled: true
 Style/MethodCallWithoutArgsParentheses:
   Enabled: true
