@@ -482,6 +482,8 @@ Performance/Squeeze:
   Enabled: true
 Performance/StartWith:
   Enabled: true
+Performance/StringIdentifierArgument:
+  Enabled: true
 Performance/StringInclude:
   Enabled: true
 Performance/StringReplacement:
@@ -535,6 +537,8 @@ Rails/CreateTableWithTimestamps:
 Rails/Date:
   Enabled: true
 Rails/DelegateAllowBlank:
+  Enabled: true
+Rails/DurationArithmetic:
   Enabled: true
 Rails/DynamicFindBy:
   Enabled: true
@@ -603,6 +607,8 @@ Rails/ReadWriteAttribute:
   Enabled: true
 Rails/RedundantAllowNil:
   Enabled: true
+Rails/RedundantPresenceValidationOnBelongsTo:
+  Enabled: true
 Rails/RedundantReceiverInWithOptions:
   Enabled: true
 Rails/RedundantTravelBack:
@@ -629,6 +635,8 @@ Rails/ReversibleMigrationMethodDefinition:
   Include:
   - db/migrate/*.rb
   - db/sharded_migrate/*.rb
+Rails/RootJoinChain:
+  Enabled: true
 Rails/SafeNavigation:
   Enabled: true
 Rails/SafeNavigationWithBlank:
@@ -739,6 +747,8 @@ RSpec/FactoryBot/AttributeDefinedStatically:
 RSpec/FactoryBot/CreateList:
   Enabled: true
 RSpec/FactoryBot/FactoryClassName:
+  Enabled: true
+RSpec/FactoryBot/SyntaxMethods:
   Enabled: true
 RSpec/FilePath:
   Enabled: true
