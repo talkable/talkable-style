@@ -951,6 +951,7 @@ Style/HashLikeCase:
   Enabled: true
 Style/HashSyntax:
   Enabled: true
+  EnforcedShorthandSyntax: never
 Style/HashTransformKeys:
   Enabled: true
 Style/HashTransformValues:
