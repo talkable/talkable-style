@@ -1,0 +1,136 @@
+require: rubocop-rspec
+
+RSpec:
+  Language:
+    Includes:
+      Examples:
+        - it_has_behavior
+
+RSpec/AroundBlock:
+  Enabled: true
+RSpec/Be:
+  Enabled: true
+RSpec/BeEql:
+  Enabled: true
+RSpec/BeforeAfterAll:
+  Enabled: true
+RSpec/Capybara/CurrentPathExpectation:
+  Enabled: true
+RSpec/Capybara/FeatureMethods:
+  Enabled: true
+RSpec/Capybara/VisibilityMatcher:
+  Enabled: true
+RSpec/ContextMethod:
+  Enabled: true
+RSpec/DescribeClass:
+  Enabled: true
+  Exclude:
+  - spec/system/**/*
+  - spec/tasks/**/*
+RSpec/DescribeMethod:
+  Enabled: true
+RSpec/DescribeSymbol:
+  Enabled: true
+RSpec/DescribedClass:
+  Enabled: true
+RSpec/DescribedClassModuleWrapping:
+  Enabled: true
+RSpec/EmptyExampleGroup:
+  Enabled: true
+  Exclude:
+  - spec/requests/api_v2/**/*
+RSpec/EmptyHook:
+  Enabled: true
+RSpec/EmptyLineAfterExample:
+  Enabled: true
+RSpec/EmptyLineAfterExampleGroup:
+  Enabled: true
+RSpec/ExampleWithoutDescription:
+  Enabled: true
+RSpec/ExampleWording:
+  Enabled: true
+RSpec/ExcessiveDocstringSpacing:
+  Enabled: true
+RSpec/ExpectInHook:
+  Enabled: true
+RSpec/ExpectOutput:
+  Enabled: true
+RSpec/FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+RSpec/FactoryBot/CreateList:
+  Enabled: true
+RSpec/FactoryBot/FactoryClassName:
+  Enabled: true
+RSpec/FactoryBot/SyntaxMethods:
+  Enabled: true
+RSpec/FilePath:
+  Enabled: true
+  IgnoreMethods: true
+  Exclude:
+  - spec/requests/api_v2/**/*
+RSpec/Focus:
+  Enabled: true
+RSpec/HooksBeforeExamples:
+  Enabled: true
+RSpec/IdenticalEqualityAssertion:
+  Enabled: true
+RSpec/InstanceSpy:
+  Enabled: true
+RSpec/InstanceVariable:
+  Enabled: true
+RSpec/ItBehavesLike:
+  Enabled: true
+RSpec/IteratedExpectation:
+  Enabled: true
+RSpec/LeakyConstantDeclaration:
+  Enabled: true
+RSpec/LetBeforeExamples:
+  Enabled: true
+RSpec/LetSetup:
+  Enabled: true
+RSpec/MultipleDescribes:
+  Enabled: true
+RSpec/MultipleSubjects:
+  Enabled: true
+RSpec/OverwritingSetup:
+  Enabled: true
+RSpec/Rails/AvoidSetupHook:
+  Enabled: true
+RSpec/Rails/HttpStatus:
+  Enabled: true
+RSpec/ReceiveCounts:
+  Enabled: true
+RSpec/ReceiveNever:
+  Enabled: true
+RSpec/RepeatedDescription:
+  Enabled: true
+RSpec/RepeatedExample:
+  Enabled: true
+RSpec/RepeatedExampleGroupBody:
+  Enabled: true
+RSpec/RepeatedExampleGroupDescription:
+  Enabled: true
+RSpec/ScatteredLet:
+  Enabled: true
+RSpec/ScatteredSetup:
+  Enabled: true
+RSpec/SharedContext:
+  Enabled: true
+RSpec/SharedExamples:
+  Enabled: true
+RSpec/SingleArgumentMessageChain:
+  Enabled: true
+RSpec/StubbedMock:
+  Enabled: true
+RSpec/SubjectDeclaration:
+  Enabled: true
+RSpec/VariableDefinition:
+  Enabled: true
+RSpec/VariableName:
+  Enabled: true
+RSpec/VerifiedDoubles:
+  Enabled: true
+RSpec/VoidExpect:
+  Enabled: true
+RSpec/Yield:
+  Enabled: true

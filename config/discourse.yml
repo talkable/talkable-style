@@ -1,0 +1,8 @@
+require: rubocop-discourse
+
+Discourse/NoJsonParseResponse:
+  Enabled: true
+Discourse/NoTimeNewWithoutArgs:
+  Enabled: true
+Discourse/NoURIEscapeEncode:
+  Enabled: true

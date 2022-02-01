@@ -1,0 +1,329 @@
+Style/AccessorGrouping:
+  Enabled: true
+Style/Alias:
+  Enabled: true
+  EnforcedStyle: prefer_alias_method
+Style/AndOr:
+  Enabled: true
+Style/ArgumentsForwarding:
+  Enabled: true
+Style/ArrayCoercion:
+  Enabled: true
+Style/ArrayJoin:
+  Enabled: true
+Style/Attr:
+  Enabled: true
+Style/AutoResourceCleanup:
+  Enabled: true
+Style/BarePercentLiterals:
+  Enabled: true
+Style/BeginBlock:
+  Enabled: true
+Style/BisectedAttrAccessor:
+  Enabled: true
+Style/BlockComments:
+  Enabled: true
+  Exclude:
+  - support/**/*
+Style/BlockDelimiters:
+  Enabled: true
+  Exclude:
+  - spec/**/*
+Style/CaseLikeIf:
+  Enabled: true
+Style/CharacterLiteral:
+  Enabled: true
+Style/ClassCheck:
+  Enabled: true
+Style/ClassEqualityComparison:
+  Enabled: true
+Style/ClassMethods:
+  Enabled: true
+Style/CollectionCompact:
+  Enabled: true
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    collect: 'map'
+    collect!: 'map!'
+    detect: 'find'
+    find_all: 'select'
+Style/ColonMethodCall:
+  Enabled: true
+Style/ColonMethodDefinition:
+  Enabled: true
+Style/CombinableLoops:
+  Enabled: true
+Style/CommentAnnotation:
+  Enabled: true
+Style/ConditionalAssignment:
+  Enabled: true
+Style/DateTime:
+  Enabled: true
+Style/DefWithParentheses:
+  Enabled: true
+Style/Dir:
+  Enabled: true
+Style/DocumentDynamicEvalDefinition:
+  Enabled: true
+Style/EachForSimpleLoop:
+  Enabled: true
+Style/EachWithObject:
+  Enabled: true
+Style/EmptyBlockParameter:
+  Enabled: true
+Style/EmptyElse:
+  Enabled: true
+Style/EmptyLambdaParameter:
+  Enabled: true
+Style/EmptyLiteral:
+  Enabled: true
+Style/EndBlock:
+  Enabled: true
+Style/EndlessMethod:
+  Enabled: true
+Style/EvalWithLocation:
+  Enabled: true
+Style/EvenOdd:
+  Enabled: true
+Style/ExpandPathArguments:
+  Enabled: true
+Style/ExplicitBlockArgument:
+  Enabled: true
+Style/ExponentialNotation:
+  Enabled: true
+Style/FileRead:
+  Enabled: true
+Style/FileWrite:
+  Enabled: true
+Style/FloatDivision:
+  Enabled: true
+Style/For:
+  Enabled: true
+Style/GlobalStdStream:
+  Enabled: true
+Style/GlobalVars:
+  Enabled: true
+Style/HashConversion:
+  Enabled: true
+Style/HashEachMethods:
+  Enabled: true
+Style/HashExcept:
+  Enabled: true
+Style/HashLikeCase:
+  Enabled: true
+Style/HashSyntax:
+  Enabled: true
+  EnforcedShorthandSyntax: never
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/IdenticalConditionalBranches:
+  Enabled: true
+Style/IfInsideElse:
+  Enabled: true
+Style/IfUnlessModifierOfIfUnless:
+  Enabled: true
+Style/IfWithBooleanLiteralBranches:
+  Enabled: true
+Style/IfWithSemicolon:
+  Enabled: true
+Style/InfiniteLoop:
+  Enabled: true
+Style/InverseMethods:
+  Enabled: true
+Style/KeywordParametersOrder:
+  Enabled: true
+Style/LambdaCall:
+  Enabled: true
+Style/LineEndConcatenation:
+  Enabled: true
+Style/MapToHash:
+  Enabled: true
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+Style/MethodDefParentheses:
+  Enabled: true
+Style/MinMax:
+  Enabled: true
+Style/MissingRespondToMissing:
+  Enabled: true
+Style/MixinGrouping:
+  Enabled: true
+Style/MixinUsage:
+  Enabled: true
+Style/ModuleFunction:
+  Enabled: true
+Style/MultilineIfThen:
+  Enabled: true
+Style/MultilineInPatternThen:
+  Enabled: true
+Style/MultilineMemoization:
+  Enabled: true
+Style/MultilineMethodSignature:
+  Enabled: true
+Style/MultilineWhenThen:
+  Enabled: true
+Style/MultipleComparison:
+  Enabled: true
+Style/MutableConstant:
+  Enabled: true
+Style/NegatedIf:
+  Enabled: true
+Style/NegatedIfElseCondition:
+  Enabled: true
+Style/NegatedUnless:
+  Enabled: true
+Style/NegatedWhile:
+  Enabled: true
+Style/NestedModifier:
+  Enabled: true
+Style/NestedTernaryOperator:
+  Enabled: true
+Style/Next:
+  Enabled: true
+Style/NilComparison:
+  Enabled: true
+Style/NilLambda:
+  Enabled: true
+Style/NonNilCheck:
+  Enabled: true
+Style/Not:
+  Enabled: true
+Style/NumberedParameters:
+  Enabled: true
+Style/NumberedParametersLimit:
+  Enabled: true
+Style/NumericLiteralPrefix:
+  Enabled: true
+Style/NumericLiterals:
+  Enabled: true
+Style/OneLineConditional:
+  Enabled: true
+Style/OpenStructUse:
+  Enabled: true
+Style/OptionalArguments:
+  Enabled: true
+Style/OptionalBooleanParameter:
+  Enabled: true
+Style/ParenthesesAroundCondition:
+  Enabled: true
+Style/PercentQLiterals:
+  Enabled: true
+Style/PerlBackrefs:
+  Enabled: true
+Style/PreferredHashMethods:
+  Enabled: true
+Style/Proc:
+  Enabled: true
+Style/RaiseArgs:
+  Enabled: true
+Style/RedundantArgument:
+  Enabled: true
+Style/RedundantAssignment:
+  Enabled: true
+Style/RedundantBegin:
+  Enabled: true
+Style/RedundantCapitalW:
+  Enabled: true
+Style/RedundantCondition:
+  Enabled: true
+Style/RedundantConditional:
+  Enabled: true
+Style/RedundantException:
+  Enabled: true
+Style/RedundantFetchBlock:
+  Enabled: true
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
+Style/RedundantFreeze:
+  Enabled: true
+Style/RedundantInterpolation:
+  Enabled: true
+Style/RedundantParentheses:
+  Enabled: true
+Style/RedundantPercentQ:
+  Enabled: true
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+Style/RedundantRegexpEscape:
+  Enabled: true
+Style/RedundantReturn:
+  Enabled: true
+Style/RedundantSelf:
+  Enabled: true
+Style/RedundantSelfAssignment:
+  Enabled: true
+Style/RedundantSelfAssignmentBranch:
+  Enabled: true
+Style/RedundantSort:
+  Enabled: true
+Style/RedundantSortBy:
+  Enabled: true
+Style/RescueStandardError:
+  Enabled: true
+Style/ReturnNil:
+  Enabled: true
+Style/SafeNavigation:
+  Enabled: true
+Style/Sample:
+  Enabled: true
+Style/SelectByRegexp:
+  Enabled: true
+Style/SelfAssignment:
+  Enabled: true
+Style/SignalException:
+  Enabled: true
+Style/SingleArgumentDig:
+  Enabled: true
+Style/SlicingWithRange:
+  Enabled: true
+Style/SoleNestedConditional:
+  Enabled: true
+Style/SpecialGlobalVars:
+  Enabled: true
+Style/StabbyLambdaParentheses:
+  Enabled: true
+Style/StaticClass:
+  Enabled: true
+Style/StderrPuts:
+  Enabled: true
+Style/StringChars:
+  Enabled: true
+Style/StringConcatenation:
+  Enabled: true
+Style/StringMethods:
+  Enabled: true
+Style/Strip:
+  Enabled: true
+Style/StructInheritance:
+  Enabled: true
+Style/SwapValues:
+  Enabled: true
+Style/SymbolLiteral:
+  Enabled: true
+Style/SymbolProc:
+  Enabled: true
+Style/TopLevelMethodDefinition:
+  Enabled: true
+Style/TrailingBodyOnClass:
+  Enabled: true
+Style/TrailingBodyOnModule:
+  Enabled: true
+Style/TrailingCommaInBlockArgs:
+  Enabled: true
+Style/TrivialAccessors:
+  Enabled: true
+Style/UnlessElse:
+  Enabled: true
+Style/UnpackFirst:
+  Enabled: true
+Style/VariableInterpolation:
+  Enabled: true
+Style/WhileUntilDo:
+  Enabled: true
+Style/YodaCondition:
+  Enabled: true
+Style/ZeroLengthPredicate:
+  Enabled: true

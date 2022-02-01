@@ -1,0 +1,26 @@
+Naming/AsciiIdentifiers:
+  Enabled: true
+Naming/BlockForwarding:
+  Enabled: true
+Naming/ClassAndModuleCamelCase:
+  Enabled: true
+Naming/ConstantName:
+  Enabled: true
+Naming/FileName:
+  Enabled: true
+Naming/InclusiveLanguage:
+  Enabled: true
+Naming/MemoizedInstanceVariableName:
+  Enabled: true
+Naming/MethodName:
+  Enabled: true
+Naming/PredicateName:
+  Enabled: true
+  NamePrefix:
+  - is_
+  ForbiddenPrefixes:
+  - is_
+Naming/RescuedExceptionsVariableName:
+  Enabled: true
+Naming/VariableName:
+  Enabled: true

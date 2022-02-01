@@ -1,0 +1,12 @@
+require: rubocop-gitlab-security
+
+GitlabSecurity/DeepMunge:
+  Enabled: true
+GitlabSecurity/RedirectToParamsUpdate:
+  Enabled: true
+GitlabSecurity/SendFileParams:
+  Enabled: true
+GitlabSecurity/SqlInjection:
+  Enabled: true
+GitlabSecurity/SystemCommandInjection:
+  Enabled: true

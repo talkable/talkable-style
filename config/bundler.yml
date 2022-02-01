@@ -1,0 +1,4 @@
+Bundler/DuplicatedGem:
+  Enabled: true
+Bundler/InsecureProtocolSource:
+  Enabled: true
