@@ -17,6 +17,7 @@ Phonelib
 Pragma
 Procfile
 Rakefile
+SAMEORIGIN
 Simba
 Yaroslaviv
 ablyaev
@@ -274,6 +275,7 @@ htmlonly
 https
 hubapi
 hubspot
+huskyrc
 hutornoy
 icloud
 idempotency
@@ -290,6 +292,7 @@ instanceof
 inversing
 iphone
 ipsum
+issuecomment
 itemprop
 itemscope
 itemtype
@@ -398,6 +401,7 @@ mozilla
 multi
 mysql
 namespace
+namespaced
 nanoid
 nataliia
 navbar
@@ -412,9 +416,11 @@ noarchive
 nofollow
 noindex
 noonan
+noopen
 noreply
 noscript
 noscroll
+nosniff
 novalidate
 nowrap
 numericality
@@ -603,6 +609,7 @@ truetype
 truthy
 tsconfig
 tspan
+typekit
 typename
 typeof
 tzinfo
@@ -634,6 +641,7 @@ urlencoded
 urlsafe
 utils
 uuidb
+uuids
 varchar
 verizon
 verma
@@ -665,6 +673,7 @@ wildcard
 woocommerce
 workflow
 wouldn
+wpengine
 xboolean
 xbooleans
 xcontext
