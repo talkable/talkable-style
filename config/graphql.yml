@@ -2,3 +2,10 @@ require: rubocop-graphql
 
 inherit_gem:
   rubocop-graphql: config/default.yml
+
+GraphQL/ArgumentDescription:
+  Enabled: false
+GraphQL/FieldDescription:
+  Enabled: false
+GraphQL/ObjectDescription:
+  Enabled: false

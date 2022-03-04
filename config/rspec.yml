@@ -10,7 +10,11 @@ RSpec/AroundBlock:
   Enabled: true
 RSpec/Be:
   Enabled: true
+RSpec/BeEq:
+  Enabled: true
 RSpec/BeEql:
+  Enabled: true
+RSpec/BeNil:
   Enabled: true
 RSpec/BeforeAfterAll:
   Enabled: true
