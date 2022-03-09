@@ -177,6 +177,8 @@ Style/NegatedUnless:
   Enabled: true
 Style/NegatedWhile:
   Enabled: true
+Style/NestedFileDirname:
+  Enabled: true
 Style/NestedModifier:
   Enabled: true
 Style/NestedTernaryOperator:
