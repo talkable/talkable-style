@@ -1,5 +1,7 @@
 require: rubocop-rails
 
+Rails/ActionControllerTestCase:
+  Enabled: true
 Rails/ActionFilter:
   Enabled: true
 Rails/ActiveRecordAliases:
@@ -40,6 +42,12 @@ Rails/CreateTableWithTimestamps:
 Rails/Date:
   Enabled: true
 Rails/DelegateAllowBlank:
+  Enabled: true
+Rails/DeprecatedActiveModelErrorsMethods:
+  Enabled: true
+Rails/DuplicateAssociation:
+  Enabled: true
+Rails/DuplicateScope:
   Enabled: true
 Rails/DurationArithmetic:
   Enabled: true
@@ -84,6 +92,8 @@ Rails/LinkToBlank:
 Rails/MailerName:
   Enabled: true
 Rails/MatchRoute:
+  Enabled: true
+Rails/MigrationClassName:
   Enabled: true
 Rails/NegateInclude:
   Enabled: true
@@ -162,6 +172,8 @@ Rails/SquishedSQLHeredocs:
 Rails/TimeZone:
   Enabled: true
 Rails/TimeZoneAssignment:
+  Enabled: true
+Rails/TransactionExitStatement:
   Enabled: true
 Rails/UniqBeforePluck:
   Enabled: true
