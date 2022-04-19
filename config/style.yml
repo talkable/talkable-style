@@ -241,6 +241,8 @@ Style/RedundantFileExtensionInRequire:
   Enabled: true
 Style/RedundantFreeze:
   Enabled: true
+Style/RedundantInitialize:
+  Enabled: true
 Style/RedundantInterpolation:
   Enabled: true
 Style/RedundantParentheses:

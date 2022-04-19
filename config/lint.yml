@@ -147,6 +147,8 @@ Lint/RedundantWithIndex:
   Enabled: true
 Lint/RedundantWithObject:
   Enabled: true
+Lint/RefinementImportMethods:
+  Enabled: true
 Lint/RegexpAsCondition:
   Enabled: true
 Lint/RequireParentheses:

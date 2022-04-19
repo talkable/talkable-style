@@ -132,6 +132,8 @@ RSpec/VariableDefinition:
   Enabled: true
 RSpec/VariableName:
   Enabled: true
+RSpec/VerifiedDoubleReference:
+  Enabled: true
 RSpec/VerifiedDoubles:
   Enabled: true
 RSpec/VoidExpect:
