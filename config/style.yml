@@ -92,6 +92,8 @@ Style/ExplicitBlockArgument:
   Enabled: true
 Style/ExponentialNotation:
   Enabled: true
+Style/FetchEnvVar:
+  Enabled: true
 Style/FileRead:
   Enabled: true
 Style/FileWrite:
@@ -200,6 +202,8 @@ Style/NumberedParametersLimit:
 Style/NumericLiteralPrefix:
   Enabled: true
 Style/NumericLiterals:
+  Enabled: true
+Style/ObjectThen:
   Enabled: true
 Style/OneLineConditional:
   Enabled: true

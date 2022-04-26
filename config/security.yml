@@ -1,3 +1,5 @@
+Security/CompoundHash:
+  Enabled: true
 Security/Eval:
   Enabled: true
 Security/IoMethods:
