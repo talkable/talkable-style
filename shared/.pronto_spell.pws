@@ -200,6 +200,7 @@ endif
 endraw
 endunless
 enqueue
+enqueued
 enqueuing
 entrypoints
 enver
@@ -581,6 +582,7 @@ stacey
 stackoverflow
 storages
 strftime
+stuartweitzman
 stylelint
 stylesheet
 stylesheets
