@@ -218,8 +218,6 @@ Lint/UselessAccessModifier:
   Enabled: true
 Lint/UselessAssignment:
   Enabled: true
-Lint/UselessElseWithoutRescue:
-  Enabled: true
 Lint/UselessMethodDefinition:
   Enabled: true
 Lint/UselessRuby2Keywords:
