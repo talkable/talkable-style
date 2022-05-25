@@ -24,6 +24,8 @@ RSpec/Capybara/FeatureMethods:
   Enabled: true
 RSpec/Capybara/VisibilityMatcher:
   Enabled: true
+RSpec/ChangeByZero:
+  Enabled: true
 RSpec/ContextMethod:
   Enabled: true
 RSpec/DescribeClass:
