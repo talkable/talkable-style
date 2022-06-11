@@ -141,6 +141,8 @@ Style/LambdaCall:
   Enabled: true
 Style/LineEndConcatenation:
   Enabled: true
+Style/MapCompactWithConditionalBlock:
+  Enabled: true
 Style/MapToHash:
   Enabled: true
 Style/MethodCallWithoutArgsParentheses:
