@@ -45,6 +45,8 @@ Rails/DelegateAllowBlank:
   Enabled: true
 Rails/DeprecatedActiveModelErrorsMethods:
   Enabled: true
+Rails/DotSeparatedKeys:
+  Enabled: true
 Rails/DuplicateAssociation:
   Enabled: true
 Rails/DuplicateScope:
@@ -150,6 +152,8 @@ Rails/ReversibleMigrationMethodDefinition:
   - db/sharded_migrate/*.rb
 Rails/RootJoinChain:
   Enabled: true
+Rails/RootPublicPath:
+  Enabled: true
 Rails/SafeNavigation:
   Enabled: true
 Rails/SafeNavigationWithBlank:
@@ -167,11 +171,15 @@ Rails/SkipsModelValidations:
   Exclude:
   - db/**/*
   - spec/**/*
+Rails/StripHeredoc:
+  Enabled: true
 Rails/SquishedSQLHeredocs:
   Enabled: true
 Rails/TimeZone:
   Enabled: true
 Rails/TimeZoneAssignment:
+  Enabled: true
+Rails/ToFormattedS:
   Enabled: true
 Rails/TransactionExitStatement:
   Enabled: true
