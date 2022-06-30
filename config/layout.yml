@@ -60,6 +60,10 @@ Layout/LeadingCommentSpace:
   Enabled: true
 Layout/LeadingEmptyLines:
   Enabled: true
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+Layout/LineContinuationSpacing:
+  Enabled: true
 Layout/MultilineAssignmentLayout:
   Enabled: true
   EnforcedStyle: same_line
