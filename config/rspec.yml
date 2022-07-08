@@ -22,6 +22,8 @@ RSpec/Capybara/CurrentPathExpectation:
   Enabled: true
 RSpec/Capybara/FeatureMethods:
   Enabled: true
+RSpec/Capybara/SpecificMatcher:
+  Enabled: true
 RSpec/Capybara/VisibilityMatcher:
   Enabled: true
 RSpec/ChangeByZero:
@@ -101,6 +103,8 @@ RSpec/MultipleSubjects:
 RSpec/OverwritingSetup:
   Enabled: true
 RSpec/Rails/AvoidSetupHook:
+  Enabled: true
+RSpec/Rails/HaveHttpStatus:
   Enabled: true
 RSpec/Rails/HttpStatus:
   Enabled: true
