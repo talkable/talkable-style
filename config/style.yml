@@ -74,6 +74,8 @@ Style/EmptyBlockParameter:
   Enabled: true
 Style/EmptyElse:
   Enabled: true
+Style/EmptyHeredoc:
+  Enabled: true
 Style/EmptyLambdaParameter:
   Enabled: true
 Style/EmptyLiteral:
