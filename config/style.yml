@@ -143,6 +143,8 @@ Style/LambdaCall:
   Enabled: true
 Style/LineEndConcatenation:
   Enabled: true
+Style/MagicCommentFormat:
+  Enabled: true
 Style/MapCompactWithConditionalBlock:
   Enabled: true
 Style/MapToHash:
