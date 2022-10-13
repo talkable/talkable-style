@@ -1,5 +1,7 @@
 require: rubocop-rails
 
+Rails/ActionControllerFlashBeforeRender:
+  Enabled: true
 Rails/ActionControllerTestCase:
   Enabled: true
 Rails/ActionFilter:
@@ -11,6 +13,8 @@ Rails/ActiveRecordCallbacksOrder:
 Rails/ActiveRecordOverride:
   Enabled: true
 Rails/ActiveSupportAliases:
+  Enabled: true
+Rails/ActiveSupportOnLoad:
   Enabled: true
 Rails/AddColumnIndex:
   Enabled: true
@@ -70,6 +74,8 @@ Rails/FindBy:
 Rails/FindById:
   Enabled: true
 Rails/FindEach:
+  Enabled: true
+Rails/FreezeTime:
   Enabled: true
 Rails/HasAndBelongsToMany:
   Enabled: true
@@ -152,6 +158,8 @@ Rails/ReversibleMigrationMethodDefinition:
   - db/sharded_migrate/*.rb
 Rails/RootJoinChain:
   Enabled: true
+Rails/RootPathnameMethods:
+  Enabled: true
 Rails/RootPublicPath:
   Enabled: true
 Rails/SafeNavigation:
@@ -181,6 +189,10 @@ Rails/TimeZoneAssignment:
   Enabled: true
 Rails/ToFormattedS:
   Enabled: true
+Rails/ToSWithArgument:
+  Enabled: true
+Rails/TopLevelHashWithIndifferentAccess:
+  Enabled: true
 Rails/TransactionExitStatement:
   Enabled: true
 Rails/UniqBeforePluck:
@@ -201,6 +213,8 @@ Rails/Validation:
 Rails/WhereEquals:
   Enabled: true
 Rails/WhereExists:
+  Enabled: true
+Rails/WhereMissing:
   Enabled: true
 Rails/WhereNot:
   Enabled: true

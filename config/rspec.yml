@@ -2,6 +2,9 @@ require: rubocop-rspec
 
 RSpec:
   Language:
+    Expectations:
+      - will
+      - will_not
     Includes:
       Examples:
         - it_has_behavior
@@ -22,11 +25,15 @@ RSpec/Capybara/CurrentPathExpectation:
   Enabled: true
 RSpec/Capybara/FeatureMethods:
   Enabled: true
+RSpec/Capybara/SpecificFinders:
+  Enabled: true
 RSpec/Capybara/SpecificMatcher:
   Enabled: true
 RSpec/Capybara/VisibilityMatcher:
   Enabled: true
 RSpec/ChangeByZero:
+  Enabled: true
+RSpec/ClassCheck:
   Enabled: true
 RSpec/ContextMethod:
   Enabled: true
@@ -82,6 +89,9 @@ RSpec/HooksBeforeExamples:
   Enabled: true
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
+RSpec/ImplicitSubject:
+  Enabled: true
+  EnforcedStyle: single_statement_only
 RSpec/InstanceSpy:
   Enabled: true
 RSpec/InstanceVariable:
@@ -99,6 +109,8 @@ RSpec/LetSetup:
 RSpec/MultipleDescribes:
   Enabled: true
 RSpec/MultipleSubjects:
+  Enabled: true
+RSpec/NoExpectationExample:
   Enabled: true
 RSpec/OverwritingSetup:
   Enabled: true
