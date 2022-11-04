@@ -85,6 +85,8 @@ Rails/HttpPositionalArguments:
   Enabled: true
 Rails/HttpStatus:
   Enabled: true
+Rails/IgnoredColumnsAssignment:
+  Enabled: true
 Rails/IgnoredSkipActionFilterOption:
   Enabled: true
 Rails/IndexBy:

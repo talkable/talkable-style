@@ -215,6 +215,8 @@ Style/OneLineConditional:
   Enabled: true
 Style/OpenStructUse:
   Enabled: true
+Style/OperatorMethodCall:
+  Enabled: true
 Style/OptionalArguments:
   Enabled: true
 Style/OptionalBooleanParameter:
@@ -242,6 +244,8 @@ Style/RedundantCapitalW:
 Style/RedundantCondition:
   Enabled: true
 Style/RedundantConditional:
+  Enabled: true
+Style/RedundantEach:
   Enabled: true
 Style/RedundantException:
   Enabled: true
@@ -274,6 +278,8 @@ Style/RedundantSelfAssignmentBranch:
 Style/RedundantSort:
   Enabled: true
 Style/RedundantSortBy:
+  Enabled: true
+Style/RedundantStringEscape:
   Enabled: true
 Style/RescueStandardError:
   Enabled: true

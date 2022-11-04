@@ -25,6 +25,10 @@ RSpec/Capybara/CurrentPathExpectation:
   Enabled: true
 RSpec/Capybara/FeatureMethods:
   Enabled: true
+RSpec/Capybara/NegationMatcher:
+  Enabled: true
+RSpec/Capybara/SpecificActions:
+  Enabled: true
 RSpec/Capybara/SpecificFinders:
   Enabled: true
 RSpec/Capybara/SpecificMatcher:
@@ -71,6 +75,8 @@ RSpec/ExpectInHook:
 RSpec/ExpectOutput:
   Enabled: true
 RSpec/FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+RSpec/FactoryBot/ConsistentParenthesesStyle:
   Enabled: true
 RSpec/FactoryBot/CreateList:
   Enabled: true
@@ -120,6 +126,8 @@ RSpec/Rails/HaveHttpStatus:
   Enabled: true
 RSpec/Rails/HttpStatus:
   Enabled: true
+RSpec/Rails/InferredSpecType:
+  Enabled: true
 RSpec/ReceiveCounts:
   Enabled: true
 RSpec/ReceiveNever:
@@ -141,6 +149,8 @@ RSpec/SharedContext:
 RSpec/SharedExamples:
   Enabled: true
 RSpec/SingleArgumentMessageChain:
+  Enabled: true
+RSpec/SortMetadata:
   Enabled: true
 RSpec/StubbedMock:
   Enabled: true
