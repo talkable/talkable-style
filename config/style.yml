@@ -58,6 +58,8 @@ Style/CombinableLoops:
   Enabled: true
 Style/CommentAnnotation:
   Enabled: true
+Style/ConcatArrayLiterals:
+  Enabled: true
 Style/ConditionalAssignment:
   Enabled: true
 Style/DateTime:
@@ -249,6 +251,8 @@ Style/RedundantConditional:
   Enabled: true
 Style/RedundantConstantBase:
   Enabled: true
+Style/RedundantDoubleSplatHashBraces:
+  Enabled: true
 Style/RedundantEach:
   Enabled: true
 Style/RedundantException:
@@ -284,6 +288,8 @@ Style/RedundantSort:
 Style/RedundantSortBy:
   Enabled: true
 Style/RedundantStringEscape:
+  Enabled: true
+Style/RequireOrder:
   Enabled: true
 Style/RescueStandardError:
   Enabled: true
