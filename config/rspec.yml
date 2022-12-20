@@ -54,6 +54,8 @@ RSpec/DescribedClass:
   Enabled: true
 RSpec/DescribedClassModuleWrapping:
   Enabled: true
+RSpec/DuplicatedMetadata:
+  Enabled: true
 RSpec/EmptyExampleGroup:
   Enabled: true
   Exclude:
@@ -81,6 +83,8 @@ RSpec/FactoryBot/ConsistentParenthesesStyle:
 RSpec/FactoryBot/CreateList:
   Enabled: true
 RSpec/FactoryBot/FactoryClassName:
+  Enabled: true
+RSpec/FactoryBot/FactoryNameStyle:
   Enabled: true
 RSpec/FactoryBot/SyntaxMethods:
   Enabled: true
