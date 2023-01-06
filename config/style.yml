@@ -153,11 +153,15 @@ Style/MapCompactWithConditionalBlock:
   Enabled: true
 Style/MapToHash:
   Enabled: true
+Style/MapToSet:
+  Enabled: true
 Style/MethodCallWithoutArgsParentheses:
   Enabled: true
 Style/MethodDefParentheses:
   Enabled: true
 Style/MinMax:
+  Enabled: true
+Style/MinMaxComparison:
   Enabled: true
 Style/MissingRespondToMissing:
   Enabled: true
