@@ -228,6 +228,8 @@ Lint/UselessAssignment:
   Enabled: true
 Lint/UselessMethodDefinition:
   Enabled: true
+Lint/UselessRescue:
+  Enabled: true
 Lint/UselessRuby2Keywords:
   Enabled: true
 Lint/UselessSetterCall:
