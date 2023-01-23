@@ -58,6 +58,8 @@ Style/CombinableLoops:
   Enabled: true
 Style/CommentAnnotation:
   Enabled: true
+Style/ComparableClamp:
+  Enabled: true
 Style/ConcatArrayLiterals:
   Enabled: true
 Style/ConditionalAssignment:
@@ -140,6 +142,8 @@ Style/IfWithSemicolon:
 Style/InfiniteLoop:
   Enabled: true
 Style/InverseMethods:
+  Enabled: true
+Style/InvertibleUnlessCondition:
   Enabled: true
 Style/KeywordParametersOrder:
   Enabled: true

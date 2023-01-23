@@ -21,19 +21,7 @@ RSpec/BeNil:
   Enabled: true
 RSpec/BeforeAfterAll:
   Enabled: true
-RSpec/Capybara/CurrentPathExpectation:
-  Enabled: true
 RSpec/Capybara/FeatureMethods:
-  Enabled: true
-RSpec/Capybara/NegationMatcher:
-  Enabled: true
-RSpec/Capybara/SpecificActions:
-  Enabled: true
-RSpec/Capybara/SpecificFinders:
-  Enabled: true
-RSpec/Capybara/SpecificMatcher:
-  Enabled: true
-RSpec/Capybara/VisibilityMatcher:
   Enabled: true
 RSpec/ChangeByZero:
   Enabled: true
@@ -131,6 +119,8 @@ RSpec/Rails/HaveHttpStatus:
 RSpec/Rails/HttpStatus:
   Enabled: true
 RSpec/Rails/InferredSpecType:
+  Enabled: true
+RSpec/Rails/MinitestAssertions:
   Enabled: true
 RSpec/ReceiveCounts:
   Enabled: true

@@ -1,0 +1,16 @@
+require: rubocop-capybara
+
+Capybara/CurrentPathExpectation:
+  Enabled: true
+Capybara/MatchStyle:
+  Enabled: true
+Capybara/NegationMatcher:
+  Enabled: true
+Capybara/SpecificActions:
+  Enabled: true
+Capybara/SpecificFinders:
+  Enabled: true
+Capybara/SpecificMatcher:
+  Enabled: true
+Capybara/VisibilityMatcher:
+  Enabled: true

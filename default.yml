@@ -11,6 +11,7 @@ AllCops:
 
 inherit_from:
   - config/bundler.yml
+  - config/capybara.yml
   - config/discourse.yml
   - config/gitlab-security.yml
   - config/graphql.yml
