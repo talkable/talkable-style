@@ -148,6 +148,8 @@ Rails/RequestReferer:
   Enabled: true
 Rails/RequireDependency:
   Enabled: true
+Rails/ResponseParsedBody:
+  Enabled: true
 Rails/ReversibleMigration:
   Enabled: true
   Include:
