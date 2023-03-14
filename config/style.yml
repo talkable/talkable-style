@@ -70,6 +70,8 @@ Style/DefWithParentheses:
   Enabled: true
 Style/Dir:
   Enabled: true
+Style/DirEmpty:
+  Enabled: true
 Style/DocumentDynamicEvalDefinition:
   Enabled: true
 Style/EachForSimpleLoop:
@@ -101,6 +103,8 @@ Style/ExplicitBlockArgument:
 Style/ExponentialNotation:
   Enabled: true
 Style/FetchEnvVar:
+  Enabled: true
+Style/FileEmpty:
   Enabled: true
 Style/FileRead:
   Enabled: true

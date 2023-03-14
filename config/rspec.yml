@@ -27,6 +27,8 @@ RSpec/ChangeByZero:
   Enabled: true
 RSpec/ClassCheck:
   Enabled: true
+RSpec/ContainExactly:
+  Enabled: true
 RSpec/ContextMethod:
   Enabled: true
 RSpec/DescribeClass:
@@ -104,6 +106,8 @@ RSpec/LetBeforeExamples:
   Enabled: true
 RSpec/LetSetup:
   Enabled: true
+RSpec/MatchArray:
+  Enabled: true
 RSpec/MultipleDescribes:
   Enabled: true
 RSpec/MultipleSubjects:
@@ -122,9 +126,13 @@ RSpec/Rails/InferredSpecType:
   Enabled: true
 RSpec/Rails/MinitestAssertions:
   Enabled: true
+RSpec/Rails/TravelAround:
+  Enabled: true
 RSpec/ReceiveCounts:
   Enabled: true
 RSpec/ReceiveNever:
+  Enabled: true
+RSpec/RedundantAround:
   Enabled: true
 RSpec/RepeatedDescription:
   Enabled: true
@@ -143,6 +151,8 @@ RSpec/SharedContext:
 RSpec/SharedExamples:
   Enabled: true
 RSpec/SingleArgumentMessageChain:
+  Enabled: true
+RSpec/SkipBlockInsideExample:
   Enabled: true
 RSpec/SortMetadata:
   Enabled: true

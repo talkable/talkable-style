@@ -1,2 +1,4 @@
 Metrics/BlockNesting:
   Enabled: true
+Metrics/CollectionLiteralLength:
+  Enabled: true
