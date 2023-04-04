@@ -64,6 +64,8 @@ Style/ConcatArrayLiterals:
   Enabled: true
 Style/ConditionalAssignment:
   Enabled: true
+Style/DataInheritance:
+  Enabled: true
 Style/DateTime:
   Enabled: true
 Style/DefWithParentheses:
@@ -280,6 +282,8 @@ Style/RedundantHeredocDelimiterQuotes:
 Style/RedundantInitialize:
   Enabled: true
 Style/RedundantInterpolation:
+  Enabled: true
+Style/RedundantLineContinuation:
   Enabled: true
 Style/RedundantParentheses:
   Enabled: true
