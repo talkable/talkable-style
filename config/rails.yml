@@ -187,6 +187,8 @@ Rails/StripHeredoc:
   Enabled: true
 Rails/SquishedSQLHeredocs:
   Enabled: true
+Rails/ThreeStateBooleanColumn:
+  Enabled: true
 Rails/TimeZone:
   Enabled: true
 Rails/TimeZoneAssignment:
