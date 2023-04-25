@@ -13,6 +13,8 @@ RSpec/AroundBlock:
   Enabled: true
 RSpec/Be:
   Enabled: true
+RSpec/BeEmpty:
+  Enabled: true
 RSpec/BeEq:
   Enabled: true
 RSpec/BeEql:
@@ -92,6 +94,8 @@ RSpec/IdenticalEqualityAssertion:
 RSpec/ImplicitSubject:
   Enabled: true
   EnforcedStyle: single_statement_only
+RSpec/IndexedLet:
+  Enabled: true
 RSpec/InstanceSpy:
   Enabled: true
 RSpec/InstanceVariable:
