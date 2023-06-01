@@ -25,13 +25,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubocop", "~> 1.50.2"
+  spec.add_dependency "rubocop", "~> 1.51.0"
   spec.add_dependency "rubocop-capybara", "~> 2.18.0"
   spec.add_dependency "rubocop-discourse", "~> 3.2.0"
   spec.add_dependency "rubocop-gitlab-security", "~> 0.1.1"
-  spec.add_dependency "rubocop-graphql", "~> 1.1.1"
-  spec.add_dependency "rubocop-performance", "~> 1.17.1"
+  spec.add_dependency "rubocop-graphql", "~> 1.2.0"
+  spec.add_dependency "rubocop-performance", "~> 1.18.0"
   spec.add_dependency "rubocop-rails", "~> 2.19.1"
   spec.add_dependency "rubocop-rake", "~> 0.6.0"
-  spec.add_dependency "rubocop-rspec", "~> 2.20.0"
+  spec.add_dependency "rubocop-rspec", "~> 2.22.0"
 end

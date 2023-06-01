@@ -68,18 +68,6 @@ RSpec/ExpectInHook:
   Enabled: true
 RSpec/ExpectOutput:
   Enabled: true
-RSpec/FactoryBot/AttributeDefinedStatically:
-  Enabled: true
-RSpec/FactoryBot/ConsistentParenthesesStyle:
-  Enabled: true
-RSpec/FactoryBot/CreateList:
-  Enabled: true
-RSpec/FactoryBot/FactoryClassName:
-  Enabled: true
-RSpec/FactoryBot/FactoryNameStyle:
-  Enabled: true
-RSpec/FactoryBot/SyntaxMethods:
-  Enabled: true
 RSpec/FilePath:
   Enabled: true
   IgnoreMethods: true

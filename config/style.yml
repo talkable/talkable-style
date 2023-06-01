@@ -98,6 +98,8 @@ Style/EvalWithLocation:
   Enabled: true
 Style/EvenOdd:
   Enabled: true
+Style/ExactRegexpMatch:
+  Enabled: true
 Style/ExpandPathArguments:
   Enabled: true
 Style/ExplicitBlockArgument:

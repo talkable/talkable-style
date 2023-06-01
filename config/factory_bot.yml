@@ -1,0 +1,14 @@
+require: rubocop-factory_bot
+
+FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+FactoryBot/ConsistentParenthesesStyle:
+  Enabled: true
+FactoryBot/CreateList:
+  Enabled: true
+FactoryBot/FactoryClassName:
+  Enabled: true
+FactoryBot/FactoryNameStyle:
+  Enabled: true
+FactoryBot/SyntaxMethods:
+  Enabled: true
