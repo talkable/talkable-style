@@ -18,9 +18,14 @@ Layout/ConditionPosition:
   Enabled: true
 Layout/DefEndAlignment:
   Enabled: true
+Layout/DotPosition:
+  Enabled: true
+  EnforcedStyle: trailing
 Layout/EmptyComment:
   Enabled: true
 Layout/EmptyLineBetweenDefs:
+  Enabled: true
+Layout/EmptyLineAfterMagicComment:
   Enabled: true
 Layout/EmptyLines:
   Enabled: true
@@ -116,6 +121,9 @@ Layout/SpaceInLambdaLiteral:
   Enabled: true
 Layout/SpaceInsideArrayPercentLiteral:
   Enabled: true
+Layout/SpaceInsideBlockBraces:
+  Enabled: true
+  EnforcedStyle: space
 Layout/SpaceInsideParens:
   Enabled: true
 Layout/SpaceInsidePercentLiteralDelimiters:
