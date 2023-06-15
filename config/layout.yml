@@ -25,8 +25,6 @@ Layout/EmptyComment:
   Enabled: true
 Layout/EmptyLineBetweenDefs:
   Enabled: true
-Layout/EmptyLineAfterMagicComment:
-  Enabled: true
 Layout/EmptyLines:
   Enabled: true
 Layout/EmptyLinesAroundAccessModifier:
