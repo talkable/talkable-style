@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Talkable style guides and shared style configs."
   spec.homepage      = "https://github.com/talkable/talkable-style"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["rubygems_mfa_required"] = "true"
@@ -25,11 +25,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubocop", "~> 1.51.0"
+  spec.add_dependency "rubocop", "~> 1.52.1"
   spec.add_dependency "rubocop-capybara", "~> 2.18.0"
   spec.add_dependency "rubocop-discourse", "~> 3.2.0"
   spec.add_dependency "rubocop-gitlab-security", "~> 0.1.1"
-  spec.add_dependency "rubocop-graphql", "~> 1.2.0"
+  spec.add_dependency "rubocop-graphql", "~> 1.3.0"
   spec.add_dependency "rubocop-performance", "~> 1.18.0"
   spec.add_dependency "rubocop-rails", "~> 2.19.1"
   spec.add_dependency "rubocop-rake", "~> 0.6.0"

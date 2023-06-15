@@ -121,7 +121,6 @@ Layout/SpaceInsideArrayPercentLiteral:
   Enabled: true
 Layout/SpaceInsideBlockBraces:
   Enabled: true
-  EnforcedStyle: space
 Layout/SpaceInsideParens:
   Enabled: true
 Layout/SpaceInsidePercentLiteralDelimiters:

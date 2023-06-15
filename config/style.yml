@@ -255,6 +255,8 @@ Style/RaiseArgs:
   Enabled: true
 Style/RedundantArgument:
   Enabled: true
+Style/RedundantArrayConstructor:
+  Enabled: true
 Style/RedundantAssignment:
   Enabled: true
 Style/RedundantBegin:
@@ -277,6 +279,8 @@ Style/RedundantFetchBlock:
   Enabled: true
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+Style/RedundantFilterChain:
+  Enabled: true
 Style/RedundantFreeze:
   Enabled: true
 Style/RedundantHeredocDelimiterQuotes:
@@ -292,6 +296,8 @@ Style/RedundantParentheses:
 Style/RedundantPercentQ:
   Enabled: true
 Style/RedundantRegexpCharacterClass:
+  Enabled: true
+Style/RedundantRegexpConstructor:
   Enabled: true
 Style/RedundantRegexpEscape:
   Enabled: true
