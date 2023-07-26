@@ -269,6 +269,8 @@ Style/RedundantConditional:
   Enabled: true
 Style/RedundantConstantBase:
   Enabled: true
+Style/RedundantCurrentDirectoryInPath:
+  Enabled: true
 Style/RedundantDoubleSplatHashBraces:
   Enabled: true
 Style/RedundantEach:
@@ -295,6 +297,8 @@ Style/RedundantParentheses:
   Enabled: true
 Style/RedundantPercentQ:
   Enabled: true
+Style/RedundantRegexpArgument:
+  Enabled: true
 Style/RedundantRegexpCharacterClass:
   Enabled: true
 Style/RedundantRegexpConstructor:
@@ -320,6 +324,8 @@ Style/RequireOrder:
 Style/RescueStandardError:
   Enabled: true
 Style/ReturnNil:
+  Enabled: true
+Style/ReturnNilInPredicateMethodDefinition:
   Enabled: true
 Style/SafeNavigation:
   Enabled: true
@@ -378,6 +384,8 @@ Style/UnpackFirst:
 Style/VariableInterpolation:
   Enabled: true
 Style/WhileUntilDo:
+  Enabled: true
+Style/YAMLFileRead:
   Enabled: true
 Style/YodaCondition:
   Enabled: true

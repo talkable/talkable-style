@@ -107,6 +107,8 @@ Lint/MissingCopEnableDirective:
   Enabled: true
 Lint/MissingSuper:
   Enabled: true
+Lint/MixedCaseRange:
+  Enabled: true
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
 Lint/MultipleComparison:
@@ -142,6 +144,8 @@ Lint/RedundantCopDisableDirective:
 Lint/RedundantCopEnableDirective:
   Enabled: true
 Lint/RedundantDirGlobSort:
+  Enabled: true
+Lint/RedundantRegexpQuantifiers:
   Enabled: true
 Lint/RedundantRequireStatement:
   Enabled: true
