@@ -118,9 +118,14 @@ RSpec/Rails/InferredSpecType:
   Enabled: true
 RSpec/Rails/MinitestAssertions:
   Enabled: true
+RSpec/Rails/NegationBeValid:
+  Enabled: true
+  EnforcedStyle: be_invalid
 RSpec/Rails/TravelAround:
   Enabled: true
 RSpec/ReceiveCounts:
+  Enabled: true
+RSpec/ReceiveMessages:
   Enabled: true
 RSpec/ReceiveNever:
   Enabled: true

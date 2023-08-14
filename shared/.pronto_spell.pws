@@ -171,6 +171,7 @@ decrypts
 dehtiar
 demandware
 describedby
+deserialize
 destructuring
 detalization
 detalized
@@ -559,6 +560,7 @@ severability
 severities
 sharded
 sharding
+sheerid
 shoejoy
 shoryuken
 shouldn
@@ -634,6 +636,8 @@ ukhova
 uncached
 uncomment
 unencrypted
+unflatten
+unflattening
 unicode
 unionpay
 unmapped
@@ -647,6 +651,7 @@ unredeem
 unrefunded
 unscope
 unselected
+unserialize
 unsharded
 unstub
 unsubscribe
@@ -712,6 +717,7 @@ zencart
 zendesk
 zerocase
 zhuravel
+zipcode
 zrange
 zrangebyscore
 zrank

@@ -1,4 +1,6 @@
 Bundler/DuplicatedGem:
   Enabled: true
+Bundler/DuplicatedGroup:
+  Enabled: true
 Bundler/InsecureProtocolSource:
   Enabled: true

@@ -42,6 +42,8 @@ Performance/IoReadlines:
   Enabled: true
 Performance/MapCompact:
   Enabled: true
+Performance/MapMethodChain:
+  Enabled: true
 Performance/RangeInclude:
   Enabled: true
 Performance/RedundantBlockCall:
