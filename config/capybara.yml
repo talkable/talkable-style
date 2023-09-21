@@ -1,10 +1,16 @@
 require: rubocop-capybara
 
+Capybara/ClickLinkOrButtonStyle:
+  Enabled: true
 Capybara/CurrentPathExpectation:
   Enabled: true
 Capybara/MatchStyle:
   Enabled: true
 Capybara/NegationMatcher:
+  Enabled: true
+Capybara/RSpec/HaveSelector:
+  Enabled: true
+Capybara/RSpec/PredicateMatcher:
   Enabled: true
 Capybara/SpecificActions:
   Enabled: true

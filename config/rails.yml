@@ -43,6 +43,8 @@ Rails/BulkChangeTable:
   Enabled: true
 Rails/CreateTableWithTimestamps:
   Enabled: true
+Rails/DangerousColumnNames:
+  Enabled: true
 Rails/Date:
   Enabled: true
 Rails/DelegateAllowBlank:
@@ -128,6 +130,8 @@ Rails/RakeEnvironment:
   Enabled: true
 Rails/ReadWriteAttribute:
   Enabled: true
+Rails/RedundantActiveRecordAllMethod:
+  Enabled: true
 Rails/RedundantAllowNil:
   Enabled: true
 Rails/RedundantPresenceValidationOnBelongsTo:
@@ -176,6 +180,8 @@ Rails/SaveBang:
   - spec/**/*
 Rails/ScopeArgs:
   Enabled: true
+Rails/SelectMap:
+  Enabled: true
 Rails/ShortI18n:
   Enabled: true
 Rails/SkipsModelValidations:
@@ -201,6 +207,11 @@ Rails/TopLevelHashWithIndifferentAccess:
   Enabled: true
 Rails/TransactionExitStatement:
   Enabled: true
+  TransactionMethods:
+  - primary_transactional
+  - sharded_transactional
+  - transactional_rescued
+  - uniqueness_transaction
 Rails/UniqBeforePluck:
   Enabled: true
 Rails/UniqueValidationWithoutIndex:
@@ -213,6 +224,8 @@ Rails/UnknownEnv:
   - staging
   - test
 Rails/UnusedIgnoredColumns:
+  Enabled: true
+Rails/UnusedRenderContent:
   Enabled: true
 Rails/Validation:
   Enabled: true

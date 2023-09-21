@@ -58,6 +58,10 @@ RSpec/EmptyLineAfterExample:
   Enabled: true
 RSpec/EmptyLineAfterExampleGroup:
   Enabled: true
+RSpec/EmptyMetadata:
+  Enabled: true
+RSpec/Eq:
+  Enabled: true
 RSpec/ExampleWithoutDescription:
   Enabled: true
 RSpec/ExampleWording:
@@ -68,11 +72,6 @@ RSpec/ExpectInHook:
   Enabled: true
 RSpec/ExpectOutput:
   Enabled: true
-RSpec/FilePath:
-  Enabled: true
-  IgnoreMethods: true
-  Exclude:
-  - spec/requests/api_v2/**/*
 RSpec/Focus:
   Enabled: true
 RSpec/HooksBeforeExamples:
@@ -99,6 +98,8 @@ RSpec/LetBeforeExamples:
 RSpec/LetSetup:
   Enabled: true
 RSpec/MatchArray:
+  Enabled: true
+RSpec/MetadataStyle:
   Enabled: true
 RSpec/MultipleDescribes:
   Enabled: true
@@ -152,6 +153,13 @@ RSpec/SingleArgumentMessageChain:
 RSpec/SkipBlockInsideExample:
   Enabled: true
 RSpec/SortMetadata:
+  Enabled: true
+RSpec/SpecFilePathFormat:
+  Enabled: true
+  IgnoreMethods: true
+  Exclude:
+  - spec/requests/api_v2/**/*
+RSpec/SpecFilePathSuffix:
   Enabled: true
 RSpec/StubbedMock:
   Enabled: true
