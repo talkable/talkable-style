@@ -65,6 +65,8 @@ Rails/EnumHash:
   Enabled: true
 Rails/EnumUniqueness:
   Enabled: true
+Rails/EnvLocal:
+  Enabled: true
 Rails/EnvironmentComparison:
   Enabled: true
 Rails/Exit:
