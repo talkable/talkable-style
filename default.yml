@@ -6,7 +6,7 @@ AllCops:
   DisplayCopNames: false
   DisabledByDefault: true
   TargetRubyVersion: 3.2
-  TargetRailsVersion: 7.0
+  TargetRailsVersion: 7.1
   ActiveSupportExtensionsEnabled: true
 
 inherit_from:

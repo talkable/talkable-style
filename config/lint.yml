@@ -97,6 +97,8 @@ Lint/IneffectiveAccessModifier:
 Lint/InheritException:
   Enabled: true
   EnforcedStyle: standard_error
+Lint/ItWithoutArgumentsInBlock:
+  Enabled: true
 Lint/LiteralAsCondition:
   Enabled: true
 Lint/LiteralAssignmentInCondition:
