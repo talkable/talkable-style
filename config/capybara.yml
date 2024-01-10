@@ -12,6 +12,8 @@ Capybara/RSpec/HaveSelector:
   Enabled: true
 Capybara/RSpec/PredicateMatcher:
   Enabled: true
+Capybara/RedundantWithinFind:
+  Enabled: true
 Capybara/SpecificActions:
   Enabled: true
 Capybara/SpecificFinders:

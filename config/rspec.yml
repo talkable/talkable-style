@@ -132,6 +132,10 @@ RSpec/ReceiveNever:
   Enabled: true
 RSpec/RedundantAround:
   Enabled: true
+RSpec/RedundantPredicateMatcher:
+  Enabled: true
+RSpec/RemoveConst:
+  Enabled: true
 RSpec/RepeatedDescription:
   Enabled: true
 RSpec/RepeatedExample:

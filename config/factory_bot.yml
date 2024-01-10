@@ -6,6 +6,8 @@ FactoryBot/ConsistentParenthesesStyle:
   Enabled: true
 FactoryBot/CreateList:
   Enabled: true
+FactoryBot/ExcessiveCreateList:
+  Enabled: true
 FactoryBot/FactoryClassName:
   Enabled: true
 FactoryBot/FactoryNameStyle:
