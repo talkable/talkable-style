@@ -87,6 +87,8 @@ RSpec/InstanceSpy:
   Enabled: true
 RSpec/InstanceVariable:
   Enabled: true
+RSpec/IsExpectedSpecify:
+  Enabled: true
 RSpec/ItBehavesLike:
   Enabled: true
 RSpec/IteratedExpectation:
@@ -143,6 +145,8 @@ RSpec/RepeatedExample:
 RSpec/RepeatedExampleGroupBody:
   Enabled: true
 RSpec/RepeatedExampleGroupDescription:
+  Enabled: true
+RSpec/RepeatedSubjectCall:
   Enabled: true
 RSpec/ScatteredLet:
   Enabled: true
