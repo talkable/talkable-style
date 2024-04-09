@@ -24,6 +24,7 @@ inherit_from:
   - config/rails.yml
   - config/rake.yml
   - config/rspec.yml
+  - config/rspec_rails.yml
   - config/security.yml
   - config/style.yml
 

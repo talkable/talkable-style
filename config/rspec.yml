@@ -111,21 +111,6 @@ RSpec/NoExpectationExample:
   Enabled: true
 RSpec/OverwritingSetup:
   Enabled: true
-RSpec/Rails/AvoidSetupHook:
-  Enabled: true
-RSpec/Rails/HaveHttpStatus:
-  Enabled: true
-RSpec/Rails/HttpStatus:
-  Enabled: true
-RSpec/Rails/InferredSpecType:
-  Enabled: true
-RSpec/Rails/MinitestAssertions:
-  Enabled: true
-RSpec/Rails/NegationBeValid:
-  Enabled: true
-  EnforcedStyle: be_invalid
-RSpec/Rails/TravelAround:
-  Enabled: true
 RSpec/ReceiveCounts:
   Enabled: true
 RSpec/ReceiveMessages:
