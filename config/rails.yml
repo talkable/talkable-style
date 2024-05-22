@@ -239,3 +239,5 @@ Rails/WhereMissing:
   Enabled: true
 Rails/WhereNot:
   Enabled: true
+Rails/WhereRange:
+  Enabled: true
