@@ -335,6 +335,8 @@ Style/SelectByRegexp:
   Enabled: true
 Style/SelfAssignment:
   Enabled: true
+Style/SendWithLiteralMethodName:
+  Enabled: true
 Style/SignalException:
   Enabled: true
 Style/SingleArgumentDig:
@@ -362,6 +364,8 @@ Style/StringMethods:
 Style/Strip:
   Enabled: true
 Style/StructInheritance:
+  Enabled: true
+Style/SuperArguments:
   Enabled: true
 Style/SwapValues:
   Enabled: true
