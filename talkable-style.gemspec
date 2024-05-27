@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rubocop", "~> 1.64.0"
   spec.add_dependency "rubocop-capybara", "~> 2.20.0"
-  spec.add_dependency "rubocop-discourse", "~> 3.7.1"
+  spec.add_dependency "rubocop-discourse", "~> 3.8.0"
   spec.add_dependency "rubocop-factory_bot", "~> 2.25.1"
   spec.add_dependency "rubocop-gitlab-security", "~> 0.1.1"
   spec.add_dependency "rubocop-graphql", "~> 1.5.1"
