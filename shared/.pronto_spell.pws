@@ -313,6 +313,7 @@ ivars
 ivashchenko
 javascript
 jcrew
+jemalloc
 jeremy
 jquery
 jshint
@@ -525,6 +526,7 @@ recaptcha
 recency
 redbubble
 redis
+redlock
 refetch
 regex
 remarketing
