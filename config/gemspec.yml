@@ -1,0 +1,12 @@
+Gemspec/AddRuntimeDependency:
+  Enabled: true
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true
+Gemspec/DuplicatedAssignment:
+  Enabled: true
+Gemspec/OrderedDependencies:
+  Enabled: true
+Gemspec/RequireMFA:
+  Enabled: true
+Gemspec/RequiredRubyVersion:
+  Enabled: true
