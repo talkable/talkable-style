@@ -132,7 +132,7 @@ Style/HashLikeCase:
   Enabled: true
 Style/HashSyntax:
   Enabled: true
-  EnforcedShorthandSyntax: never
+  EnforcedShorthandSyntax: either_consistent
 Style/HashTransformKeys:
   Enabled: true
 Style/HashTransformValues:
