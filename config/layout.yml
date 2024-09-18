@@ -18,9 +18,6 @@ Layout/ConditionPosition:
   Enabled: true
 Layout/DefEndAlignment:
   Enabled: true
-Layout/DotPosition:
-  Enabled: true
-  EnforcedStyle: trailing
 Layout/EmptyComment:
   Enabled: true
 Layout/EmptyLineBetweenDefs:

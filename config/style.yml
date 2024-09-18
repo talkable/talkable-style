@@ -291,6 +291,8 @@ Style/RedundantInitialize:
   Enabled: true
 Style/RedundantInterpolation:
   Enabled: true
+Style/RedundantInterpolationUnfreeze:
+  Enabled: true
 Style/RedundantLineContinuation:
   Enabled: true
 Style/RedundantParentheses:
