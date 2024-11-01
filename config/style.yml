@@ -3,6 +3,8 @@ Style/AccessorGrouping:
 Style/Alias:
   Enabled: true
   EnforcedStyle: prefer_alias_method
+Style/AmbiguousEndlessMethodDefinition:
+  Enabled: true
 Style/AndOr:
   Enabled: true
 Style/ArgumentsForwarding:
@@ -53,6 +55,8 @@ Style/CollectionMethods:
 Style/ColonMethodCall:
   Enabled: true
 Style/ColonMethodDefinition:
+  Enabled: true
+Style/CombinableDefined:
   Enabled: true
 Style/CombinableLoops:
   Enabled: true
@@ -152,6 +156,8 @@ Style/InfiniteLoop:
 Style/InverseMethods:
   Enabled: true
 Style/InvertibleUnlessCondition:
+  Enabled: true
+Style/KeywordArgumentsMerging:
   Enabled: true
 Style/KeywordParametersOrder:
   Enabled: true
@@ -331,6 +337,9 @@ Style/ReturnNilInPredicateMethodDefinition:
   Enabled: true
 Style/SafeNavigation:
   Enabled: true
+Style/SafeNavigationChainLength:
+  Enabled: true
+  Max: 3
 Style/Sample:
   Enabled: true
 Style/SelectByRegexp:

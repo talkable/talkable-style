@@ -50,6 +50,8 @@ Lint/DuplicateRequire:
   Enabled: true
 Lint/DuplicateRescueException:
   Enabled: true
+Lint/DuplicateSetElement:
+  Enabled: true
 Lint/EachWithObjectArgument:
   Enabled: true
 Lint/ElseLayout:
@@ -213,6 +215,8 @@ Lint/TopLevelReturnWithArgument:
 Lint/TrailingCommaInAttributeDeclaration:
   Enabled: true
 Lint/TripleQuotes:
+  Enabled: true
+Lint/UnescapedBracketInRegexp:
   Enabled: true
 Lint/UnexpectedBlockArity:
   Enabled: true
