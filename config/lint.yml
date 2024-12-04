@@ -86,6 +86,8 @@ Lint/FormatParameterMismatch:
   Enabled: true
 Lint/HashCompareByIdentity:
   Enabled: true
+Lint/HashNewWithKeywordArgumentsAsDefault:
+  Enabled: true
 Lint/HeredocMethodCallPosition:
   Enabled: true
 Lint/IdentityComparison:
@@ -130,6 +132,8 @@ Lint/NonDeterministicRequireOrder:
 Lint/NonLocalExitFromIterator:
   Enabled: true
 Lint/NumberedParameterAssignment:
+  Enabled: true
+Lint/NumericOperationWithConstantResult:
   Enabled: true
 Lint/OrAssignmentToConstant:
   Enabled: true
@@ -239,6 +243,8 @@ Lint/UriRegexp:
 Lint/UselessAccessModifier:
   Enabled: true
 Lint/UselessAssignment:
+  Enabled: true
+Lint/UselessDefined:
   Enabled: true
 Lint/UselessMethodDefinition:
   Enabled: true
