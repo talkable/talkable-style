@@ -163,6 +163,8 @@ Style/InverseMethods:
   Enabled: true
 Style/InvertibleUnlessCondition:
   Enabled: true
+Style/ItAssignment:
+  Enabled: true
 Style/KeywordArgumentsMerging:
   Enabled: true
 Style/KeywordParametersOrder:

@@ -5,8 +5,8 @@ AllCops:
   - tmp/**/*
   DisplayCopNames: false
   DisabledByDefault: true
-  TargetRubyVersion: 3.3
-  TargetRailsVersion: 7.2
+  TargetRubyVersion: 3.4
+  TargetRailsVersion: 8.0
   ActiveSupportExtensionsEnabled: true
 
 inherit_from:

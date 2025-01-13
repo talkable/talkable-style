@@ -20,6 +20,8 @@ Lint/ConstantDefinitionInBlock:
   Enabled: true
 Lint/ConstantOverwrittenInRescue:
   Enabled: true
+Lint/ConstantReassignment:
+  Enabled: true
 Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
@@ -205,6 +207,8 @@ Lint/SelfAssignment:
 Lint/SendWithMixinArgument:
   Enabled: true
 Lint/ShadowedException:
+  Enabled: true
+Lint/SharedMutableDefault:
   Enabled: true
 Lint/StructNewOverride:
   Enabled: true
