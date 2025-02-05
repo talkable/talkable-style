@@ -111,6 +111,8 @@ Rails/MatchRoute:
   Enabled: true
 Rails/MigrationClassName:
   Enabled: true
+Rails/MultipleRoutePaths:
+  Enabled: true
 Rails/NegateInclude:
   Enabled: true
 Rails/NotNullColumn:
@@ -194,6 +196,8 @@ Rails/SkipsModelValidations:
   - db/**/*
   - spec/**/*
 Rails/StripHeredoc:
+  Enabled: true
+Rails/StrongParametersExpect:
   Enabled: true
 Rails/SquishedSQLHeredocs:
   Enabled: true

@@ -140,6 +140,8 @@ Style/HashExcept:
   Enabled: true
 Style/HashLikeCase:
   Enabled: true
+Style/HashSlice:
+  Enabled: true
 Style/HashSyntax:
   Enabled: true
   EnforcedShorthandSyntax: either_consistent

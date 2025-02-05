@@ -25,9 +25,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubocop", "~> 1.70.0"
+  spec.add_dependency "rubocop", "~> 1.71.2"
   spec.add_dependency "rubocop-capybara", "~> 2.21.0"
-  spec.add_dependency "rubocop-discourse", "~> 3.9.2"
+  spec.add_dependency "rubocop-discourse", "~> 3.9.3"
   spec.add_dependency "rubocop-factory_bot", "~> 2.26.1"
 
   # TODO: Replace with https://gitlab.com/gitlab-org/ruby/gems/gitlab-styles when it supports rubocop-rspec 3.2
@@ -35,8 +35,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rubocop-graphql", "~> 1.5.4"
   spec.add_dependency "rubocop-performance", "~> 1.23.1"
-  spec.add_dependency "rubocop-rails", "~> 2.28.0"
+  spec.add_dependency "rubocop-rails", "~> 2.29.1"
   spec.add_dependency "rubocop-rake", "~> 0.6.0"
-  spec.add_dependency "rubocop-rspec", "~> 3.3.0"
+  spec.add_dependency "rubocop-rspec", "~> 3.4.0"
   spec.add_dependency "rubocop-rspec_rails", "~> 2.30.0"
 end

@@ -8,6 +8,8 @@ Lint/AmbiguousRange:
   Enabled: true
 Lint/AmbiguousRegexpLiteral:
   Enabled: true
+Lint/ArrayLiteralInRegexp:
+  Enabled: true
 Lint/BigDecimalNew:
   Enabled: true
 Lint/BinaryOperatorWithIdenticalOperands:
