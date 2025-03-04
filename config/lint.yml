@@ -24,6 +24,8 @@ Lint/ConstantOverwrittenInRescue:
   Enabled: true
 Lint/ConstantReassignment:
   Enabled: true
+Lint/CopDirectiveSyntax:
+  Enabled: true
 Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
@@ -169,6 +171,8 @@ Lint/RedundantSplatExpansion:
   Enabled: true
 Lint/RedundantStringCoercion:
   Enabled: true
+Lint/RedundantTypeConversion:
+  Enabled: true
 Lint/RedundantWithIndex:
   Enabled: true
 Lint/RedundantWithObject:
@@ -214,6 +218,8 @@ Lint/SharedMutableDefault:
   Enabled: true
 Lint/StructNewOverride:
   Enabled: true
+Lint/SuppressedExceptionInNumberConversion:
+  Enabled: true
 Lint/SymbolConversion:
   Enabled: true
 Lint/ToEnumArguments:
@@ -249,6 +255,8 @@ Lint/UriRegexp:
 Lint/UselessAccessModifier:
   Enabled: true
 Lint/UselessAssignment:
+  Enabled: true
+Lint/UselessConstantScoping:
   Enabled: true
 Lint/UselessDefined:
   Enabled: true

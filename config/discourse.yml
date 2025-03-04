@@ -1,4 +1,5 @@
-require: rubocop-discourse
+plugins:
+  - rubocop-discourse
 
 Discourse/NoJsonParseResponse:
   Enabled: true

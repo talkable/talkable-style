@@ -299,6 +299,10 @@ Style/RedundantFileExtensionInRequire:
   Enabled: true
 Style/RedundantFilterChain:
   Enabled: true
+Style/RedundantFormat:
+  Enabled: true
+  Exclude:
+  - app/grids/**/*
 Style/RedundantFreeze:
   Enabled: true
 Style/RedundantHeredocDelimiterQuotes:
