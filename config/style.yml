@@ -62,6 +62,8 @@ Style/CombinableLoops:
   Enabled: true
 Style/CommentAnnotation:
   Enabled: true
+Style/ComparableBetween:
+  Enabled: true
 Style/ComparableClamp:
   Enabled: true
 Style/ConcatArrayLiterals:

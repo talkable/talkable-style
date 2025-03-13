@@ -1,12 +1,18 @@
-require: rubocop-capybara
+plugins: rubocop-capybara
 
+Capybara/AmbiguousClick:
+  Enabled: true
 Capybara/ClickLinkOrButtonStyle:
   Enabled: true
 Capybara/CurrentPathExpectation:
   Enabled: true
+Capybara/FindAllFirst:
+  Enabled: true
 Capybara/MatchStyle:
   Enabled: true
 Capybara/NegationMatcher:
+  Enabled: true
+Capybara/NegationMatcherAfterVisit:
   Enabled: true
 Capybara/RSpec/HaveSelector:
   Enabled: true

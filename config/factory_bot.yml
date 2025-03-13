@@ -1,4 +1,4 @@
-require: rubocop-factory_bot
+plugins: rubocop-factory_bot
 
 FactoryBot/AttributeDefinedStatically:
   Enabled: true
