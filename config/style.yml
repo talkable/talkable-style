@@ -140,6 +140,8 @@ Style/HashEachMethods:
   Enabled: true
 Style/HashExcept:
   Enabled: true
+Style/HashFetchChain:
+  Enabled: true
 Style/HashLikeCase:
   Enabled: true
 Style/HashSlice:
@@ -168,6 +170,8 @@ Style/InverseMethods:
 Style/InvertibleUnlessCondition:
   Enabled: true
 Style/ItAssignment:
+  Enabled: true
+Style/ItBlockParameter:
   Enabled: true
 Style/KeywordArgumentsMerging:
   Enabled: true

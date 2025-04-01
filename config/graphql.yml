@@ -1,4 +1,4 @@
-require: rubocop-graphql
+plugins: rubocop-graphql
 
 inherit_gem:
   rubocop-graphql: config/default.yml
