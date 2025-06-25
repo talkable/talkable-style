@@ -12,7 +12,9 @@ Naming/MemoizedInstanceVariableName:
   Enabled: true
 Naming/MethodName:
   Enabled: true
-Naming/PredicateName:
+Naming/PredicateMethod:
+  Enabled: true
+Naming/PredicatePrefix:
   Enabled: true
   NamePrefix:
   - is_

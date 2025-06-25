@@ -258,11 +258,15 @@ Lint/UselessAssignment:
   Enabled: true
 Lint/UselessConstantScoping:
   Enabled: true
+Lint/UselessDefaultValueArgument:
+  Enabled: true
 Lint/UselessDefined:
   Enabled: true
 Lint/UselessMethodDefinition:
   Enabled: true
 Lint/UselessNumericOperation:
+  Enabled: true
+Lint/UselessOr:
   Enabled: true
 Lint/UselessRescue:
   Enabled: true

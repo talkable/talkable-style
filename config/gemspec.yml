@@ -1,5 +1,7 @@
 Gemspec/AddRuntimeDependency:
   Enabled: true
+Gemspec/AttributeAssignment:
+  Enabled: true
 Gemspec/DeprecatedAttributeAssignment:
   Enabled: true
 Gemspec/DuplicatedAssignment:
