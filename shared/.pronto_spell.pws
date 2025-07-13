@@ -103,6 +103,7 @@ bootsnap
 bronto
 browserslist
 browserslistrc
+bugbot
 bugsnag
 callto
 campaignstip
@@ -231,6 +232,7 @@ favicon
 fennec
 fesyura
 fieldset
+fileutils
 firefox
 firstname
 fisunenko
@@ -320,6 +322,7 @@ ivashchenko
 javascript
 jcrew
 jemalloc
+jenkins
 jeremy
 jquery
 jshint
@@ -386,6 +389,7 @@ mailgun
 mailto
 makara
 maksym
+markdownlint
 masiuk
 maskedinput
 mastercard
