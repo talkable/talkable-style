@@ -1,0 +1,46 @@
+name: PR Agent
+
+on:
+  workflow_call:
+    secrets:
+      OPENAI_KEY:
+        required: true
+      TALKABLE_BOT_GITHUB_ACCESS_TOKEN:
+        required: true
+
+jobs:
+  pr-agent:
+    if: |
+      github.event.sender.type != 'Bot' &&
+      github.actor != 'talkable-bot' &&
+      (
+        github.event_name == 'pull_request' ||
+        (
+          github.event_name == 'issue_comment' &&
+          (
+            contains(github.event.comment.body, '/describe') ||
+            contains(github.event.comment.body, '/improve') ||
+            contains(github.event.comment.body, '/review')
+          )
+        )
+      )
+
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
+
+    steps:
+      - name: PR Agent action step
+        id: pragent
+        uses: qodo-ai/pr-agent@main
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          GITHUB_TOKEN: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
+          github_action_config.auto_review: "true"
+          github_action_config.auto_describe: "true"
+          github_action_config.auto_improve: "true"
+          config.model: "o4-mini"
+          config.fallback_models: '["gpt-4.1"]'
+          pr_reviewer.extra_instructions: "Focus on identifying bugs, performance bottlenecks, logical errors and security issues."
