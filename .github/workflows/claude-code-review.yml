@@ -32,6 +32,10 @@ jobs:
         with:
           fetch-depth: 1
 
+      # Removes any local .mcp.json file to ensure Claude Code Action uses its built-in GitHub MCP credentials
+      - name: Clean up local MCP configuration
+        run: rm -f .mcp.json
+
       - name: Run Claude Code Review
         id: claude-review
         uses: anthropics/claude-code-action@beta
@@ -40,15 +44,14 @@ jobs:
           model: claude-opus-4-20250514
           fallback_model: claude-sonnet-4-20250514
           use_sticky_comment: true
-          allowed_tools: "mcp__github__create_pending_pull_request_review,mcp__github__add_pull_request_review_comment_to_pending_review,mcp__github__add_comment_to_pending_review,mcp__github__submit_pending_pull_request_review,mcp__github__get_pull_request_diff"
+          allowed_tools: "mcp__github__create_pending_pull_request_review,mcp__github__add_comment_to_pending_review,mcp__github__submit_pending_pull_request_review,mcp__github__get_pull_request_diff"
 
           direct_prompt: |
             You are an expert code reviewer specializing in identifying bugs, performance bottlenecks, and logical
             errors in pull requests. Your task is to perform a thorough, constructive code review of this pull request,
             focusing on improving code quality.
 
-            CRITICAL LINE NUMBER GUIDANCE:
-            When using `mcp__github__add_pull_request_review_comment_to_pending_review` or `mcp__github__add_comment_to_pending_review`,
+            CRITICAL LINE NUMBER GUIDANCE: When using `mcp__github__add_comment_to_pending_review`,
             the `line` parameter must be the ACTUAL LINE NUMBER in the file, counting from 1 (not 0).
 
             For NEW FILES (those starting with "new file mode" in the diff):
@@ -199,8 +202,7 @@ jobs:
             ...
             </file_analysis>
 
-            After your analysis, provide inline comments using the `mcp__github__add_pull_request_review_comment_to_pending_review`
-            or `mcp__github__add_comment_to_pending_review` function. For each issue:
+            After your analysis, provide inline comments using the `mcp__github__add_comment_to_pending_review` function. For each issue:
             - Use the EXACT line number from the diff (not calculated or offset)
             - Clearly explain the problem
             - Provide the impact/consequences
@@ -219,7 +221,7 @@ jobs:
             - event: "COMMENT" (MANDATORY - DO NOT USE "APPROVE" OR "REQUEST_CHANGES")
 
             ⚠️ IMPORTANT: You are providing code review feedback ONLY:
-            - Always use event: "COMMENT" when calling `mcp__github__add_pull_request_review_comment_to_pending_review` or `mcp__github__add_comment_to_pending_review`
+            - Always use event: "COMMENT" when calling `mcp__github__add_comment_to_pending_review`
             - NEVER use event: "APPROVE" or event: "REQUEST_CHANGES" (this would approve or block the PR)
             - This applies regardless of the code quality or number of issues found
 
