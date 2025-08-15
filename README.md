@@ -21,7 +21,7 @@ spec.add_development_dependency "talkable-style"
 And then run:
 
 ```bash
-$ bundle install
+bundle install
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ inherit_gem:
 Now, run:
 
 ```bash
-$ bundle exec rubocop
+bundle exec rubocop
 ```
 
 You do not need to include rubocop directly in your application's dependencies. Talkable-style will include a specific version of `rubocop` and `rubocop-*` that is shared across all projects.

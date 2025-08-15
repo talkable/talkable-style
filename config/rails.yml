@@ -79,6 +79,8 @@ Rails/FindBy:
   Enabled: true
 Rails/FindById:
   Enabled: true
+Rails/FindByOrAssignmentMemoization:
+  Enabled: true
 Rails/FindEach:
   Enabled: true
 Rails/FreezeTime:

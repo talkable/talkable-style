@@ -123,6 +123,7 @@ cellpadding
 cellspacing
 changelog
 charset
+chartjs
 checkbox
 chromeheadless
 chuchko
@@ -208,6 +209,7 @@ elsif
 emarsys
 emmet
 endcapture
+endcase
 endcomment
 endif
 endraw
@@ -239,6 +241,7 @@ fileutils
 firefox
 firstname
 fisunenko
+fitty
 flexbox
 flexbugs
 flushall
@@ -306,6 +309,7 @@ iemobile
 ifnull
 iframe
 iframes
+imessage
 inline
 innodb
 instafeed
@@ -392,6 +396,7 @@ mailgun
 mailto
 makara
 maksym
+malwarebytes
 markdownlint
 masiuk
 maskedinput
@@ -486,6 +491,7 @@ opentype
 optgroup
 optin
 optonline
+orientationchange
 oscommerce
 otpauth
 param
@@ -493,6 +499,7 @@ params
 passkit
 pathname
 pavel
+peets
 perclient
 pidfile
 pinterest
@@ -526,6 +533,7 @@ prontolabs
 puravida
 puravidabracelets
 pustovalov
+qrcode
 railtie
 railties
 raquo
@@ -661,6 +669,7 @@ ubercart
 ukhova
 unbounced
 uncached
+uncheck
 uncomment
 unencrypted
 unescape

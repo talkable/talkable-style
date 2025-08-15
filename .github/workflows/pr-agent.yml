@@ -41,6 +41,6 @@ jobs:
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "true"
-          config.model: "o4-mini"
-          config.fallback_models: '["gpt-4.1"]'
+          config.model: "gpt-5-2025-08-07"
+          config.fallback_models: '["o4-mini"]'
           pr_reviewer.extra_instructions: "Focus on identifying bugs, performance bottlenecks, logical errors and security issues."

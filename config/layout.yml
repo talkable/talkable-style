@@ -24,6 +24,8 @@ Layout/EmptyLineBetweenDefs:
   Enabled: true
 Layout/EmptyLines:
   Enabled: true
+Layout/EmptyLinesAfterModuleInclusion:
+  Enabled: true
 Layout/EmptyLinesAroundAccessModifier:
   Enabled: true
 Layout/EmptyLinesAroundBeginBody:
