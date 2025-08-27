@@ -38,15 +38,17 @@ jobs:
 
       - name: Run Claude Code Review
         id: claude-review
-        uses: anthropics/claude-code-action@beta
+        uses: anthropics/claude-code-action@v1
         with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          model: claude-opus-4-1-20250805
-          fallback_model: claude-sonnet-4-20250514
           use_sticky_comment: true
-          allowed_tools: "mcp__github__create_pending_pull_request_review,mcp__github__add_comment_to_pending_review,mcp__github__submit_pending_pull_request_review,mcp__github__get_pull_request_diff"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 
-          direct_prompt: |
+          claude_args: |
+            --model claude-opus-4-1-20250805
+            --fallback_model claude-4-0-sonnet-20250805
+            --allowedTools "mcp__github__create_pending_pull_request_review,mcp__github__add_comment_to_pending_review,mcp__github__submit_pending_pull_request_review,mcp__github__get_pull_request_diff"
+
+          prompt: |
             You are an expert code reviewer specializing in identifying bugs, performance bottlenecks, and logical
             errors in pull requests. Your task is to perform a thorough, constructive code review of this pull request,
             focusing on improving code quality.
