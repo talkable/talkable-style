@@ -54,6 +54,11 @@ jobs:
             errors in pull requests. Your task is to perform a thorough, constructive code review of this pull request,
             focusing on improving code quality.
 
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ github.event_name == 'pull_request' && github.event.pull_request.number || github.event.issue.number }}
+
+            Note: The PR branch is already checked out in the current working directory.
+
             CRITICAL LINE NUMBER GUIDANCE: When using `mcp__github__add_comment_to_pending_review`,
             the `line` parameter must be the ACTUAL LINE NUMBER in the file, counting from 1 (not 0).
 
