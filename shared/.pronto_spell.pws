@@ -46,6 +46,7 @@ analytics
 anonymized
 antialiased
 apollo
+appleid
 areaspline
 arial
 arrowdown
@@ -75,6 +76,8 @@ babbel
 babelrc
 backend
 backface
+backfill
+backfills
 backport
 backreference
 backtraces
@@ -423,6 +426,7 @@ molekule
 monday
 mongo
 monospace
+moonshotai
 mousedown
 mouseenter
 mouseleave
@@ -527,6 +531,7 @@ prerendered
 presigned
 prestashop
 prettierrc
+privaterelay
 processlist
 procs
 prontolabs
@@ -704,6 +709,7 @@ urlsafe
 utils
 uuidb
 uuids
+valign
 varchar
 verizon
 verma
