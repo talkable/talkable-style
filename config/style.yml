@@ -13,6 +13,8 @@ Style/ArrayCoercion:
   Enabled: true
 Style/ArrayIntersect:
   Enabled: true
+Style/ArrayIntersectWithSingleElement:
+  Enabled: true
 Style/ArrayJoin:
   Enabled: true
 Style/Attr:
