@@ -1,0 +1,42 @@
+name: Setup APT packages
+description: Install APT packages with retry logic to handle lock conflicts
+
+inputs:
+  packages:
+    description: Space-separated list of packages to install
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Install APT packages
+      shell: bash
+      run: |
+        # Stop unattended-upgrades to prevent dpkg lock conflicts
+        sudo systemctl stop unattended-upgrades.service || true
+        sudo systemctl kill --kill-who=all unattended-upgrades.service || true
+
+        # Wait for any existing dpkg processes to finish
+        while sudo fuser /var/lib/dpkg/lock-frontend >/dev/null 2>&1; do
+          echo "Waiting for existing dpkg processes to finish..."
+          sleep 2
+        done
+
+        # Retry apt-get update up to 3 times to handle mirror sync issues
+        for i in {1..3}; do
+          echo "Attempt $i: Updating package lists..."
+          if sudo apt-get update -qq; then
+            echo "Package lists updated successfully"
+            break
+          else
+            if [ $i -lt 3 ]; then
+              echo "Update failed, waiting 10 seconds before retry..."
+              sleep 10
+            else
+              echo "Failed to update package lists after 3 attempts"
+              exit 1
+            fi
+          fi
+        done
+
+        sudo apt-get install -y --no-install-recommends ${{ inputs.packages }}
