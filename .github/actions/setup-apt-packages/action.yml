@@ -1,3 +1,4 @@
+# See https://github.com/actions/runner-images/issues/1120
 name: Setup APT packages
 description: Install APT packages with retry logic to handle lock conflicts
 
@@ -16,21 +17,33 @@ runs:
         sudo systemctl stop unattended-upgrades.service || true
         sudo systemctl kill --kill-who=all unattended-upgrades.service || true
 
-        # Wait for any existing dpkg processes to finish
-        while sudo fuser /var/lib/dpkg/lock-frontend >/dev/null 2>&1; do
-          echo "Waiting for existing dpkg processes to finish..."
-          sleep 2
-        done
-
-        # Retry apt-get update up to 3 times to handle mirror sync issues
+        # Retry apt-get update up to 3 times to handle lock conflicts and mirror sync issues
         for i in {1..3}; do
           echo "Attempt $i: Updating package lists..."
-          if sudo apt-get update -qq; then
+
+          # Wait for any existing dpkg processes to finish
+          timeout=60
+          elapsed=0
+          while sudo fuser /var/lib/dpkg/lock-frontend >/dev/null 2>&1; do
+            if [ $elapsed -ge $timeout ]; then
+              echo "Timeout waiting for dpkg lock to be released"
+              break
+            fi
+            echo "Waiting for existing dpkg processes to finish..."
+            sleep 2
+            elapsed=$((elapsed + 2))
+          done
+
+          # Run apt-get update and capture output
+          if output=$(sudo apt-get update 2>&1); then
             echo "Package lists updated successfully"
             break
           else
+            echo "Update failed with output:"
+            echo "$output"
+
             if [ $i -lt 3 ]; then
-              echo "Update failed, waiting 10 seconds before retry..."
+              echo "Waiting 10 seconds before retry..."
               sleep 10
             else
               echo "Failed to update package lists after 3 attempts"
@@ -39,4 +52,37 @@ runs:
           fi
         done
 
-        sudo apt-get install -y --no-install-recommends ${{ inputs.packages }}
+        # Retry apt-get install up to 3 times to handle lock conflicts
+        for i in {1..3}; do
+          echo "Attempt $i: Installing packages..."
+
+          # Wait for any existing dpkg processes to finish
+          timeout=60
+          elapsed=0
+          while sudo fuser /var/lib/dpkg/lock-frontend >/dev/null 2>&1; do
+            if [ $elapsed -ge $timeout ]; then
+              echo "Timeout waiting for dpkg lock to be released"
+              break
+            fi
+            echo "Waiting for existing dpkg processes to finish..."
+            sleep 2
+            elapsed=$((elapsed + 2))
+          done
+
+          # Run apt-get install and capture output
+          if output=$(sudo apt-get install -y --no-install-recommends ${{ inputs.packages }} 2>&1); then
+            echo "Packages installed successfully"
+            break
+          else
+            echo "Install failed with output:"
+            echo "$output"
+
+            if [ $i -lt 3 ]; then
+              echo "Waiting 10 seconds before retry..."
+              sleep 10
+            else
+              echo "Failed to install packages after 3 attempts"
+              exit 1
+            fi
+          fi
+        done
