@@ -1,0 +1,82 @@
+name: PR Review by OpenHands
+
+on:
+  workflow_call:
+    inputs:
+      runs-on:
+        description: The type of machine to run the job on
+        default: ubuntu-latest
+        type: string
+    secrets:
+      OPENAI_KEY:
+        required: true
+      TALKABLE_BOT_GITHUB_ACCESS_TOKEN:
+        required: true
+
+jobs:
+  pr-review:
+    if: |
+      github.event.sender.type != 'Bot' &&
+      github.actor != 'talkable-bot' &&
+      (
+        github.event_name == 'pull_request' ||
+        (
+          github.event_name == 'issue_comment' &&
+          contains(github.event.comment.body, '/pr-review')
+        )
+      )
+
+    runs-on: ${{ inputs.runs-on }}
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: read
+
+    steps:
+      - name: Checkout software-agent-sdk repository
+        uses: actions/checkout@v5
+        with:
+          repository: OpenHands/software-agent-sdk
+          path: software-agent-sdk
+
+      - name: Checkout PR repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          path: pr-repo
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install OpenHands dependencies
+        run: |
+          # Install OpenHands SDK and tools from git repository
+          uv pip install --system "openhands-sdk @ git+https://github.com/OpenHands/software-agent-sdk.git@main#subdirectory=openhands-sdk"
+          uv pip install --system "openhands-tools @ git+https://github.com/OpenHands/software-agent-sdk.git@main#subdirectory=openhands-tools"
+
+      - name: Run PR review
+        env:
+          GITHUB_TOKEN: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
+          LLM_API_KEY: ${{ secrets.OPENAI_KEY }}
+          LLM_BASE_URL: https://api.openai.com/v1
+          LLM_MODEL: gpt-5.1-codex
+          PR_BASE_BRANCH: ${{ github.event.pull_request.base.ref }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          REPO_NAME: ${{ github.repository }}
+        run: |
+          # Change to the PR repository directory so agent can analyze the code
+          cd pr-repo
+
+          # Run the PR review script from the agent-sdk checkout
+          uv run python ../software-agent-sdk/examples/03_github_workflows/02_pr_review/agent_script.py

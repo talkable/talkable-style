@@ -2,6 +2,11 @@ name: Claude Code Review
 
 on:
   workflow_call:
+    inputs:
+      runs-on:
+        description: The type of machine to run the job on
+        default: ubuntu-latest
+        type: string
     secrets:
       CLAUDE_CODE_OAUTH_TOKEN:
         required: true
@@ -19,7 +24,7 @@ jobs:
         )
       )
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runs-on }}
     permissions:
       actions: read
       contents: read
@@ -45,8 +50,8 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 
           claude_args: |
-            --model claude-opus-4-1-20250805
-            --fallback-model claude-4-0-sonnet-20250805
+            --model claude-opus-4-5-20251101
+            --fallback-model claude-sonnet-4-5-20250929
             --allowedTools "mcp__github__create_pending_pull_request_review,mcp__github__add_comment_to_pending_review,mcp__github__submit_pending_pull_request_review,mcp__github__get_pull_request_diff"
 
           prompt: |

@@ -2,6 +2,11 @@ name: PR Agent
 
 on:
   workflow_call:
+    inputs:
+      runs-on:
+        description: The type of machine to run the job on
+        default: ubuntu-latest
+        type: string
     secrets:
       OPENAI_KEY:
         required: true
@@ -25,7 +30,7 @@ jobs:
         )
       )
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runs-on }}
     permissions:
       issues: write
       pull-requests: write
