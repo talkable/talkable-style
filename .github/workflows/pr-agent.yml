@@ -45,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
-          github_action_config.auto_improve: "true"
+          github_action_config.auto_improve: "false"
           config.model: "gpt-5-2025-08-07"
           config.fallback_models: '["o4-mini"]'
           pr_reviewer.extra_instructions: "Focus on identifying bugs, performance bottlenecks, logical errors and security issues."
