@@ -39,12 +39,37 @@ jobs:
           repository: OpenHands/software-agent-sdk
           path: software-agent-sdk
 
+      - name: Get PR details
+        id: pr-details
+        env:
+          GH_TOKEN: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
+        run: |
+          if [[ "${{ github.event_name }}" == "issue_comment" ]]; then
+            PR_NUMBER=${{ github.event.issue.number }}
+            PR_DATA=$(gh api repos/${{ github.repository }}/pulls/$PR_NUMBER)
+            echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+            echo "pr_title=$(echo "$PR_DATA" | jq -r '.title')" >> $GITHUB_OUTPUT
+            echo "pr_body<<EOF" >> $GITHUB_OUTPUT
+            echo "$PR_DATA" | jq -r '.body // ""' >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "pr_head_branch=$(echo "$PR_DATA" | jq -r '.head.ref')" >> $GITHUB_OUTPUT
+            echo "pr_base_branch=$(echo "$PR_DATA" | jq -r '.base.ref')" >> $GITHUB_OUTPUT
+          else
+            echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+            echo "pr_title=${{ github.event.pull_request.title }}" >> $GITHUB_OUTPUT
+            echo "pr_body<<EOF" >> $GITHUB_OUTPUT
+            echo "${{ github.event.pull_request.body }}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "pr_head_branch=${{ github.event.pull_request.head.ref }}" >> $GITHUB_OUTPUT
+            echo "pr_base_branch=${{ github.event.pull_request.base.ref }}" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout PR repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
           path: pr-repo
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ steps.pr-details.outputs.pr_head_branch }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -68,11 +93,11 @@ jobs:
           LLM_API_KEY: ${{ secrets.OPENAI_KEY }}
           LLM_BASE_URL: https://api.openai.com/v1
           LLM_MODEL: gpt-5.1-codex
-          PR_BASE_BRANCH: ${{ github.event.pull_request.base.ref }}
-          PR_BODY: ${{ github.event.pull_request.body }}
-          PR_HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BASE_BRANCH: ${{ steps.pr-details.outputs.pr_base_branch }}
+          PR_BODY: ${{ steps.pr-details.outputs.pr_body }}
+          PR_HEAD_BRANCH: ${{ steps.pr-details.outputs.pr_head_branch }}
+          PR_NUMBER: ${{ steps.pr-details.outputs.pr_number }}
+          PR_TITLE: ${{ steps.pr-details.outputs.pr_title }}
           REPO_NAME: ${{ github.repository }}
         run: |
           # Change to the PR repository directory so agent can analyze the code
