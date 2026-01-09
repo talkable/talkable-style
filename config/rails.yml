@@ -138,6 +138,8 @@ Rails/RakeEnvironment:
   Enabled: true
 Rails/ReadWriteAttribute:
   Enabled: true
+Rails/RedirectBackOrTo:
+  Enabled: true
 Rails/RedundantActiveRecordAllMethod:
   Enabled: true
 Rails/RedundantAllowNil:

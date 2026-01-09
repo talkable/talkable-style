@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: Checkout software-agent-sdk repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: OpenHands/software-agent-sdk
           path: software-agent-sdk
@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Checkout PR repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           path: pr-repo
