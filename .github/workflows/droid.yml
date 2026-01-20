@@ -1,0 +1,43 @@
+name: Droid Tag
+
+on:
+  workflow_call:
+    inputs:
+      runs-on:
+        description: The type of machine to run the job on
+        default: ubuntu-latest
+        type: string
+    secrets:
+      FACTORY_API_KEY:
+        required: true
+
+jobs:
+  droid:
+    if: |
+      github.event.sender.type != 'Bot' &&
+      github.actor != 'talkable-bot' &&
+      (
+        (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@droid')) ||
+        (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@droid')) ||
+        (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@droid')) ||
+        (github.event_name == 'issues' && (contains(github.event.issue.body, '@droid') || contains(github.event.issue.title, '@droid')))
+      )
+
+    runs-on: ${{ inputs.runs-on }}
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Run Droid
+        uses: Factory-AI/droid-action@v1
+        with:
+          factory_api_key: ${{ secrets.FACTORY_API_KEY }}
