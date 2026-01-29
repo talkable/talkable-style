@@ -233,6 +233,8 @@ Style/NegatedUnless:
   Enabled: true
 Style/NegatedWhile:
   Enabled: true
+Style/NegativeArrayIndex:
+  Enabled: true
 Style/NestedFileDirname:
   Enabled: true
 Style/NestedModifier:
@@ -362,6 +364,8 @@ Style/RescueStandardError:
 Style/ReturnNil:
   Enabled: true
 Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: true
+Style/ReverseFind:
   Enabled: true
 Style/SafeNavigation:
   Enabled: true

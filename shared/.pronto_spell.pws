@@ -258,6 +258,7 @@ frontend
 fullscreen
 georgiy
 giftclaim
+gitignore
 globbing
 gmail
 goldbelly
@@ -504,6 +505,7 @@ params
 passkit
 pathname
 pavel
+paypal
 peets
 perclient
 pidfile
@@ -631,6 +633,7 @@ stylesheet
 stylesheets
 sunday
 sunduk
+supervisord
 swfobject
 symbian
 tabindex
