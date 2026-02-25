@@ -1,5 +1,11 @@
 personal_ws-1.1 en 0
 Brewfile
+BYDAY
+BYHOUR
+BYMINUTE
+BYMONTHDAY
+BYSECOND
+BYSETPOS
 CDATA
 CNAME
 Capfile
@@ -7,6 +13,7 @@ DATEDIFF
 DOCTYPE
 Dockerfile
 FIXME
+FREQ
 FULLPATH
 Gemfile
 HABTM
@@ -254,6 +261,7 @@ forloop
 formset
 freltoft
 freshdesk
+friday
 frontend
 fullscreen
 georgiy
@@ -580,6 +588,7 @@ salazar
 salesforce
 santa
 sassc
+saturday
 savchenko
 savepoint
 savon
@@ -649,6 +658,7 @@ textfield
 thead
 themestore
 themuse
+thursday
 tiering
 tiers
 timeframe
@@ -669,6 +679,7 @@ truetype
 truthy
 tsconfig
 tspan
+tuesday
 twilio
 typekit
 typename
@@ -737,6 +748,7 @@ webhooks
 webkit
 webmock
 webpack
+wednesday
 weren
 whatsapp
 whitelist
