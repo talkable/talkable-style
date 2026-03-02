@@ -7,6 +7,10 @@ on:
         description: The type of machine to run the job on
         default: ubuntu-latest
         type: string
+      allowed-non-write-users:
+        description: Comma-separated list of usernames allowed without write permissions
+        default: ''
+        type: string
     secrets:
       CLAUDE_CODE_OAUTH_TOKEN:
         required: true
@@ -44,5 +48,6 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
+          allowed_non_write_users: ${{ inputs.allowed-non-write-users }}
           additional_permissions: |
             actions: read
