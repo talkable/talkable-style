@@ -26,6 +26,8 @@ Lint/ConstantReassignment:
   Enabled: true
 Lint/CopDirectiveSyntax:
   Enabled: true
+Lint/DataDefineOverride:
+  Enabled: true
 Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
@@ -243,6 +245,8 @@ Lint/UnmodifiedReduceAccumulator:
 Lint/UnreachableCode:
   Enabled: true
 Lint/UnreachableLoop:
+  Enabled: true
+Lint/UnreachablePatternBranch:
   Enabled: true
 Lint/UnusedBlockArgument:
   Enabled: true

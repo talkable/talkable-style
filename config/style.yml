@@ -126,6 +126,8 @@ Style/FileEmpty:
   Enabled: true
 Style/FileNull:
   Enabled: true
+Style/FileOpen:
+  Enabled: true
 Style/FileRead:
   Enabled: true
 Style/FileTouch:
@@ -190,6 +192,8 @@ Style/LineEndConcatenation:
 Style/MagicCommentFormat:
   Enabled: true
 Style/MapCompactWithConditionalBlock:
+  Enabled: true
+Style/MapJoin:
   Enabled: true
 Style/MapToHash:
   Enabled: true
@@ -261,6 +265,8 @@ Style/NumericLiterals:
   Enabled: true
 Style/ObjectThen:
   Enabled: true
+Style/OneClassPerFile:
+  Enabled: true
 Style/OneLineConditional:
   Enabled: true
 Style/OpenStructUse:
@@ -273,15 +279,21 @@ Style/OptionalBooleanParameter:
   Enabled: true
 Style/ParenthesesAroundCondition:
   Enabled: true
+Style/PartitionInsteadOfDoubleSelect:
+  Enabled: true
 Style/PercentQLiterals:
   Enabled: true
 Style/PerlBackrefs:
+  Enabled: true
+Style/PredicateWithKind:
   Enabled: true
 Style/PreferredHashMethods:
   Enabled: true
 Style/Proc:
   Enabled: true
 Style/RaiseArgs:
+  Enabled: true
+Style/ReduceToHash:
   Enabled: true
 Style/RedundantArgument:
   Enabled: true
@@ -331,6 +343,8 @@ Style/RedundantInterpolationUnfreeze:
   Enabled: true
 Style/RedundantLineContinuation:
   Enabled: true
+Style/RedundantMinMaxBy:
+  Enabled: true
 Style/RedundantParentheses:
   Enabled: true
 Style/RedundantPercentQ:
@@ -357,6 +371,8 @@ Style/RedundantSortBy:
   Enabled: true
 Style/RedundantStringEscape:
   Enabled: true
+Style/RedundantStructKeywordInit:
+  Enabled: true
 Style/RequireOrder:
   Enabled: true
 Style/RescueStandardError:
@@ -373,6 +389,10 @@ Style/SafeNavigationChainLength:
   Enabled: true
   Max: 3
 Style/Sample:
+  Enabled: true
+Style/SelectByKind:
+  Enabled: true
+Style/SelectByRange:
   Enabled: true
 Style/SelectByRegexp:
   Enabled: true
@@ -415,6 +435,8 @@ Style/SwapValues:
 Style/SymbolLiteral:
   Enabled: true
 Style/SymbolProc:
+  Enabled: true
+Style/TallyMethod:
   Enabled: true
 Style/TopLevelMethodDefinition:
   Enabled: true
