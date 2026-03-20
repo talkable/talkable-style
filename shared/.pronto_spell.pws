@@ -239,6 +239,7 @@ evenodd
 evgeniy
 evgeniypodgaetskiy
 exacttarget
+exitstatus
 exrate
 facebook
 facebookexternalhit
@@ -350,6 +351,7 @@ jeremy
 jquery
 jshint
 jsonb
+jsonl
 jspdf
 julia
 kaminari
@@ -413,6 +415,7 @@ mailto
 makara
 maksym
 malwarebytes
+mariozechner
 markdownlint
 masiuk
 maskedinput
@@ -469,6 +472,7 @@ nikita
 noarchive
 nofollow
 noindex
+nonblock
 noonan
 noopen
 noreply
@@ -527,6 +531,7 @@ pipelined
 planhat
 podgaetskiy
 polyfill
+popen
 popup
 popups
 postcss
@@ -568,6 +573,7 @@ reaggregate
 reaggregation
 recaptcha
 recency
+redactor
 redbubble
 redis
 redlock
@@ -584,6 +590,7 @@ rosul
 rothy
 rothys
 rowspan
+rpc
 rspec
 rswag
 rubocop
@@ -604,11 +611,13 @@ scard
 scherbina
 scrollbar
 scrollspy
+sdk
 selenoid
 sendgrid
 sephora
 sergey
 sergii
+serializer
 setex
 severability
 severities
@@ -642,6 +651,9 @@ squareupsandbox
 srcset
 stacey
 stackoverflow
+stderr
+stdin
+stdout
 storages
 strftime
 stuartweitzman
@@ -659,6 +671,7 @@ taras
 tbody
 tddium
 templating
+termsig
 testflight
 testid
 textarea
@@ -692,6 +705,7 @@ twilio
 typekit
 typename
 typeof
+typescript
 tzinfo
 ubercart
 ukhova
