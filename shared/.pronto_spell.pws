@@ -51,6 +51,7 @@ american
 amongst
 analytics
 anonymized
+anthropic
 antialiased
 apollo
 appleid
@@ -119,6 +120,7 @@ callto
 campaignstip
 camuto
 canada
+cancelled
 canvg
 capistrano
 capistranorb
@@ -265,6 +267,7 @@ friday
 frontend
 fullscreen
 georgiy
+gettime
 giftclaim
 gitignore
 globbing
@@ -514,6 +517,7 @@ passkit
 pathname
 pavel
 paypal
+pdftotext
 peets
 perclient
 pidfile
@@ -537,6 +541,7 @@ preload
 preloaded
 preloading
 prepend
+prepending
 preprocess
 prerendered
 presigned
@@ -545,6 +550,7 @@ prettierrc
 privaterelay
 processlist
 procs
+profitabilities
 prontolabs
 puravida
 puravidabracelets
@@ -615,9 +621,11 @@ shouldn
 shutterfly
 siabruk
 sidekiq
+sigkill
 signout
 signup
 signups
+sigterm
 simplecov
 sinatra
 sinon
@@ -748,6 +756,7 @@ webhooks
 webkit
 webmock
 webpack
+webrick
 wednesday
 weren
 whatsapp
