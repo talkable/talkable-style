@@ -50,8 +50,8 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 
           claude_args: |
-            --model claude-opus-4-5-20251101
-            --fallback-model claude-sonnet-4-5-20250929
+            --model claude-opus-4-6
+            --fallback-model claude-sonnet-4-6
             --allowedTools "mcp__github__create_pending_pull_request_review,mcp__github__add_comment_to_pending_review,mcp__github__submit_pending_pull_request_review,mcp__github__get_pull_request_diff"
 
           prompt: |

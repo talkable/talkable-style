@@ -1,15 +1,16 @@
 personal_ws-1.1 en 0
-Brewfile
 BYDAY
 BYHOUR
 BYMINUTE
 BYMONTHDAY
 BYSECOND
 BYSETPOS
+Brewfile
 CDATA
 CNAME
 Capfile
 DATEDIFF
+DAYOFWEEK
 DOCTYPE
 Dockerfile
 FIXME
@@ -18,8 +19,10 @@ FULLPATH
 Gemfile
 HABTM
 Homebrew
+INPLACE
 IPAddr
 Intellipse
+MAKEDATE
 Magadan
 Phonelib
 Pragma
@@ -42,6 +45,7 @@ adrian
 adroll
 aktiv
 alexey
+alice
 allan
 allen
 alyona
@@ -50,6 +54,7 @@ amazontrust
 american
 amongst
 analytics
+animationend
 anonymized
 anthropic
 antialiased
@@ -137,6 +142,7 @@ changelog
 charset
 chartjs
 checkbox
+checkmark
 chromeheadless
 chuchko
 chunkhash
@@ -190,8 +196,10 @@ debounce
 decrypt
 decrypted
 decrypts
+deduplicates
 dehtiar
 demandware
+dependabot
 describedby
 deserialize
 destructuring
@@ -205,11 +213,14 @@ dmitriy
 doesn
 domainkey
 dotdigital
+downcase
 downcased
+downcases
 dragleave
 dropdown
 dropzone
 dualstack
+duolingo
 dzhulii
 ecmascript
 ecommerce
@@ -219,6 +230,7 @@ elasticloadbalancing
 elasticsearch
 elsif
 emarsys
+emdash
 emmet
 endcapture
 endcase
@@ -263,9 +275,11 @@ forloop
 formset
 freltoft
 freshdesk
+freshworks
 friday
 frontend
 fullscreen
+geofencing
 georgiy
 gettime
 giftclaim
@@ -305,6 +319,7 @@ helvetica
 heredoc
 highcharts
 hiptop
+horodnychyi
 hostedzone
 hostinfo
 hostname
@@ -350,6 +365,7 @@ jeremy
 jquery
 jshint
 jsonb
+jsonl
 jspdf
 julia
 kaminari
@@ -384,6 +400,7 @@ ldquo
 leaderboard
 lenovo
 leonid
+lifecycle
 lilysilk
 lindman
 linecap
@@ -424,8 +441,10 @@ mayvenn
 mdash
 meego
 melijoe
+memoization
 menlo
 metadata
+mexican
 microsoft
 mihika
 minified
@@ -475,6 +494,7 @@ noreply
 noscript
 noscroll
 nosniff
+notif
 novalidate
 nowrap
 numericality
@@ -502,6 +522,7 @@ onreadystatechange
 onsubmit
 ontimeout
 ontouchstart
+openai
 opencart
 openssl
 opentype
@@ -527,6 +548,7 @@ pipelined
 planhat
 podgaetskiy
 polyfill
+popstate
 popup
 popups
 postcss
@@ -535,6 +557,7 @@ postgres
 postgresql
 postmessage
 precompile
+prefill
 preflight
 preformat
 preload
@@ -552,6 +575,7 @@ processlist
 procs
 profitabilities
 prontolabs
+prudiy
 puravida
 puravidabracelets
 pustovalov
@@ -566,6 +590,7 @@ readonly
 readystatechange
 reaggregate
 reaggregation
+rebecca
 recaptcha
 recency
 redbubble
@@ -684,6 +709,7 @@ transitionend
 trino
 tristate
 truetype
+trunc
 truthy
 tsconfig
 tspan
@@ -767,6 +793,7 @@ wildcard
 woocommerce
 wordpress
 workflow
+worktree
 wouldn
 wpengine
 xboolean
