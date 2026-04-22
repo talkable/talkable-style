@@ -28,7 +28,9 @@ Phonelib
 Pragma
 Procfile
 Rakefile
+Roboto
 SAMEORIGIN
+Segoe
 Simba
 Yaroslaviv
 ablyaev
@@ -305,10 +307,12 @@ grayscale
 greatsbrand
 grecaptcha
 grotesk
+gstack
 guban
 gusieva
 guzel
 gymboree
+handoff
 hanmail
 hanna
 hapikey
@@ -416,6 +420,7 @@ lockbox
 lodash
 lograge
 lookup
+loopback
 lorem
 lottie
 lpush
@@ -500,6 +505,7 @@ nowrap
 numericality
 nutrisystem
 oauth
+observability
 octokit
 oksana
 oleksandr
@@ -523,6 +529,7 @@ onsubmit
 ontimeout
 ontouchstart
 openai
+openapi
 opencart
 openssl
 opentype
@@ -532,6 +539,7 @@ optonline
 orientationchange
 oscommerce
 otpauth
+overmind
 param
 params
 passkit
@@ -545,12 +553,14 @@ pidfile
 pinterest
 pipeline
 pipelined
+plaintext
 planhat
 podgaetskiy
 polyfill
 popstate
 popup
 popups
+portless
 postcss
 postgre
 postgres
@@ -715,6 +725,7 @@ tsconfig
 tspan
 tuesday
 twilio
+typecheck
 typekit
 typename
 typeof
@@ -760,6 +771,7 @@ uuidb
 uuids
 valign
 varchar
+vercel
 verizon
 verma
 victoria
@@ -788,6 +800,7 @@ weren
 whatsapp
 whitelist
 whitelisted
+whoami
 wikipedia
 wildcard
 woocommerce
@@ -822,3 +835,4 @@ zrange
 zrangebyscore
 zrank
 zremrangebyscore
+zshrc
