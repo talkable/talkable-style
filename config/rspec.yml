@@ -46,6 +46,8 @@ RSpec/DescribedClassModuleWrapping:
   Enabled: true
 RSpec/Dialect:
   Enabled: true
+RSpec/DiscardedMatcher:
+  Enabled: true
 RSpec/DuplicatedMetadata:
   Enabled: true
 RSpec/EmptyExampleGroup:
@@ -102,6 +104,8 @@ RSpec/LetBeforeExamples:
 RSpec/LetSetup:
   Enabled: true
 RSpec/MatchArray:
+  Enabled: true
+RSpec/MatchWithSimpleRegex:
   Enabled: true
 RSpec/MetadataStyle:
   Enabled: true

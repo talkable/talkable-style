@@ -39,13 +39,13 @@ jobs:
     steps:
       - name: PR Agent action step
         id: pragent
-        uses: qodo-ai/pr-agent@main
+        uses: the-pr-agent/pr-agent@main
         env:
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
           GITHUB_TOKEN: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "false"
-          config.model: "gpt-5-2025-08-07"
-          config.fallback_models: '["o4-mini"]'
+          config.model: "gpt-5.6"
+          config.fallback_models: '["gpt-5.6-terra"]'
           pr_reviewer.extra_instructions: "Focus on identifying bugs, performance bottlenecks, logical errors and security issues."
