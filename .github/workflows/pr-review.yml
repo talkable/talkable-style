@@ -43,26 +43,42 @@ jobs:
         id: pr-details
         env:
           GH_TOKEN: ${{ secrets.TALKABLE_BOT_GITHUB_ACCESS_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          # A title, body or branch name is attacker-controlled, and `${{ }}` pastes it into
+          # the script verbatim — a backtick or $(...) in a PR body then runs on the runner,
+          # which holds GH_TOKEN. Read them from the environment, where they stay data.
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
+          PR_BASE_BRANCH: ${{ github.event.pull_request.base.ref }}
         run: |
-          if [[ "${{ github.event_name }}" == "issue_comment" ]]; then
-            PR_NUMBER=${{ github.event.issue.number }}
-            PR_DATA=$(gh api repos/${{ github.repository }}/pulls/$PR_NUMBER)
-            echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
-            echo "pr_title=$(echo "$PR_DATA" | jq -r '.title')" >> $GITHUB_OUTPUT
-            echo "pr_body<<EOF" >> $GITHUB_OUTPUT
-            echo "$PR_DATA" | jq -r '.body // ""' >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
-            echo "pr_head_branch=$(echo "$PR_DATA" | jq -r '.head.ref')" >> $GITHUB_OUTPUT
-            echo "pr_base_branch=$(echo "$PR_DATA" | jq -r '.base.ref')" >> $GITHUB_OUTPUT
-          else
-            echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
-            echo "pr_title=${{ github.event.pull_request.title }}" >> $GITHUB_OUTPUT
-            echo "pr_body<<EOF" >> $GITHUB_OUTPUT
-            echo "${{ github.event.pull_request.body }}" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
-            echo "pr_head_branch=${{ github.event.pull_request.head.ref }}" >> $GITHUB_OUTPUT
-            echo "pr_base_branch=${{ github.event.pull_request.base.ref }}" >> $GITHUB_OUTPUT
+          if [[ "$EVENT_NAME" == "issue_comment" ]]; then
+            PR_DATA=$(gh api "repos/$REPO/pulls/$ISSUE_NUMBER")
+            PR_NUMBER=$ISSUE_NUMBER
+            PR_TITLE=$(jq -r '.title' <<< "$PR_DATA")
+            PR_BODY=$(jq -r '.body // ""' <<< "$PR_DATA")
+            PR_HEAD_BRANCH=$(jq -r '.head.ref' <<< "$PR_DATA")
+            PR_BASE_BRANCH=$(jq -r '.base.ref' <<< "$PR_DATA")
           fi
+
+          # Random delimiter: with a fixed one, a body containing that line closes the
+          # heredoc early and forges the outputs below it — pr_head_branch feeds the `ref`
+          # of the checkout two steps down.
+          delimiter=$(openssl rand -hex 16)
+          {
+            echo "pr_number=$PR_NUMBER"
+            echo "pr_head_branch=$PR_HEAD_BRANCH"
+            echo "pr_base_branch=$PR_BASE_BRANCH"
+            echo "pr_title<<$delimiter"
+            echo "$PR_TITLE"
+            echo "$delimiter"
+            echo "pr_body<<$delimiter"
+            echo "$PR_BODY"
+            echo "$delimiter"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Checkout PR repository
         uses: actions/checkout@v7
